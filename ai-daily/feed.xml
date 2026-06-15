@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeepGeekAI</title>
+    <description>Program Hard, Play AI Harder, Live Crazy!</description>
+    <link>http://aideepgeek.github.io/ai-daily/</link>
+    <atom:link href="http://aideepgeek.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Jun 2026 21:06:00 +0800</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:06:00 +0800</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>AI 视频生成与角色替换</title>
+        <description>&lt;h3 id=&quot;ai-视频生成与角色替换&quot;&gt;&lt;strong&gt;AI 视频生成与角色替换&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI 视频生成技术已能实现&lt;strong&gt;实时换脸&lt;/strong&gt;和&lt;strong&gt;角色替换&lt;/strong&gt;。用户上传一段视频和一张目标照片，AI（如快手的 &lt;strong&gt;Kling Motion Control&lt;/strong&gt;）即可生成逼真的角色替换视频，精准捕捉微表情，效果几乎无破绽。&lt;/li&gt;
+  &lt;li&gt;这项技术成本极低，对影视行业冲击巨大，引发了关于“&lt;strong&gt;好莱坞是否终结&lt;/strong&gt;”的讨论。同时，它也带来了关于&lt;strong&gt;深伪技术&lt;/strong&gt;被用于诈骗、破坏信任以及身份验证的担忧。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chatgpt-引入广告&quot;&gt;&lt;strong&gt;ChatGPT 引入广告&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OpenAI 计划在 &lt;strong&gt;ChatGPT&lt;/strong&gt; 中加入广告，首先在美国对免费版和新推出的 &lt;strong&gt;ChatGPT Go&lt;/strong&gt;（每月8美元）订阅用户进行测试。&lt;/li&gt;
+  &lt;li&gt;广告将出现在AI回复下方，根据对话上下文匹配，并标注“赞助商”。OpenAI 承诺广告不影响回复内容，且敏感话题（如健康、政治）不显示广告。&lt;/li&gt;
+  &lt;li&gt;这一决定被视为 &lt;strong&gt;OpenAI 在巨大财务压力下的商业化妥协&lt;/strong&gt;，与其此前表达的反广告立场相悖。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ai-行业动态与争议&quot;&gt;&lt;strong&gt;AI 行业动态与争议&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;医疗应用&lt;/strong&gt;：AI 战火已烧向医疗健康领域，旨在解决化验单等专业信息难以理解的问题。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI 代码质量受质疑&lt;/strong&gt;：名为 &lt;strong&gt;Cursor&lt;/strong&gt; 的项目，据称用 GPT-5.2 生成了300万行代码，但被开发者揭露为无法编译的“&lt;strong&gt;AI泔水&lt;/strong&gt;”，面临全网嘲讽。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;技术路线反思&lt;/strong&gt;：&lt;strong&gt;Transformer&lt;/strong&gt; 的发明者之一警告，当前 AI 研究可能陷入死胡同，大量的&lt;strong&gt;微调工作&lt;/strong&gt;可能只是浪费时间，暗示未来需要新的架构突破。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;公司治理内幕&lt;/strong&gt;：马斯克诉 OpenAI 案的法庭文件揭露，&lt;strong&gt;奥特曼&lt;/strong&gt;通过 YC 基金间接持有 OpenAI 股份，并且早在 &lt;strong&gt;2017 年&lt;/strong&gt;就计划将公司转为盈利模式，这被指与其公开声明的非营利初衷不符。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;开源模型进展&quot;&gt;&lt;strong&gt;开源模型进展&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;FLUX.2-Klein&lt;/strong&gt; 开源模型发布，它将图像&lt;strong&gt;生成与编辑&lt;/strong&gt;统一在单一架构中，速度极快（端到端推理低于0.5秒），且可在消费级GPU（仅需13GB显存）上运行，降低了高质量AI图像处理的门槛。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 18 Jan 2026 17:23:50 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2026/01/ai-daily-20260118/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2026/01/ai-daily-20260118/</guid>
+        
+        <category>ai-info-hub</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI硬件与模型趋势</title>
+        <description>&lt;h2 id=&quot;ai硬件与模型趋势&quot;&gt;AI硬件与模型趋势&lt;/h2&gt;
+&lt;p&gt;英伟达发布桌面级AI超算，降低大模型运行门槛；2025年AI趋势：从拼算力转向高质量数据之争；Gemini登陆Google TV，电视变身全能AI助手。&lt;/p&gt;
+
+&lt;h3 id=&quot;英伟达发布桌面级ai超算降低大模型运行门槛&quot;&gt;英伟达发布桌面级AI超算，降低大模型运行门槛&lt;/h3&gt;
+
+&lt;p&gt;在CES展会上，英伟达推出了名为 &lt;strong&gt;DGX Spark&lt;/strong&gt; 和 &lt;strong&gt;DGX Station&lt;/strong&gt; 的桌面AI超级计算机。这两款设备号称“全球最小AI超算”，基于 &lt;strong&gt;Grace Blackwell&lt;/strong&gt; 架构，让开发者可以在本地运行之前只能在云端或数据中心运行的大型模型。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;核心性能&lt;/strong&gt;：&lt;strong&gt;DGX Spark&lt;/strong&gt; 能够运行高达 &lt;strong&gt;1000亿参数&lt;/strong&gt; 的模型，而更强大的 &lt;strong&gt;DGX Station&lt;/strong&gt; 则能支持 &lt;strong&gt;1万亿参数&lt;/strong&gt; 的模型。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;技术突破&lt;/strong&gt;：通过软件优化和新的 &lt;strong&gt;NVFP4&lt;/strong&gt; 数据格式（可将模型压缩高达70%），这些设备的性能得到显著提升。英伟达正与 &lt;strong&gt;llama.cpp&lt;/strong&gt; 等开源社区合作，进一步提升模型运行效率。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;应用价值&lt;/strong&gt;：对于企业和研究人员，&lt;strong&gt;DGX Station&lt;/strong&gt; 将 &lt;strong&gt;GB300&lt;/strong&gt; 超级芯片集成到桌面环境中，极大地降低了开发和测试最新大模型（如Qwen、Llama 4等）的门槛和成本。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;生态扩展&lt;/strong&gt;：英伟达还计划在Spark上提供完整的企业AI套件、代码助手，甚至支持游戏模组开发和机器人研究，使其成为一个多功能的AI基础平台。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2025年ai趋势从拼算力转向高质量数据之争&quot;&gt;2025年AI趋势：从拼算力转向高质量数据之争&lt;/h3&gt;
+
+&lt;p&gt;文章指出，2025年人工智能的发展重心正发生根本性转移：从追求模型规模，转向构建解决现实问题的能力。在这场变革中，&lt;strong&gt;高质量数据&lt;/strong&gt; 成为新的核心竞争力。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;趋势一：多语种TTS与全双工交互&lt;/strong&gt;：语音技术不再只求清晰，更追求“人情味”和“实时性”。这需要从“清晰样本”转向包含情感、方言和自然对话打断的 &lt;strong&gt;“生动语料”&lt;/strong&gt;，以训练出能像真人一样实时互动的AI。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;趋势二：多模态大模型&lt;/strong&gt;：以 &lt;strong&gt;DeepSeek-OCR&lt;/strong&gt; 为代表，AI正从简单的“识别”文字，进化到对图像、表格、界面等多元信息进行统一理解和 &lt;strong&gt;“认知推理”&lt;/strong&gt;。这要求数据具备跨模态的深度关联和逻辑结构。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gemini登陆google-tv电视变身全能ai助手&quot;&gt;Gemini登陆Google TV，电视变身全能AI助手&lt;/h3&gt;
+
+&lt;p&gt;在2026年CES上，谷歌宣布将 &lt;strong&gt;Gemini&lt;/strong&gt; 深度集成到 &lt;strong&gt;Google TV&lt;/strong&gt; 中，旨在将电视从单纯的娱乐设备升级为家庭AI中心。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;智能交互&lt;/strong&gt;：用户可以用非常&lt;strong&gt;自然的语言&lt;/strong&gt;搜索内容（例如“找一部像《权力的游戏》的剧”），甚至不用知道片名。Gemini还能提供视觉丰富的回复，结合图片、视频片段等，让信息更直观。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;功能拓展&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;学习工具&lt;/strong&gt;：“深度解析”功能可以生成带旁白的交互式概览，帮助用户深入学习复杂话题。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;照片处理&lt;/strong&gt;：直接搜索相册，并利用 &lt;strong&gt;Nano Banana&lt;/strong&gt; 和 &lt;strong&gt;Veo&lt;/strong&gt; 模型对照片进行艺术再创作或生成视频。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;便捷设置&lt;/strong&gt;：用户可以直接语音指令调整电视设置（如“屏幕太暗了”），无需繁琐地进入菜单操作。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;未来计划&lt;/strong&gt;：该功能将率先在TCL等旗舰机型上推出，随后逐步扩展到更多设备。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 17 Jan 2026 18:15:11 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2026/01/ai-info-hub/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2026/01/ai-info-hub/</guid>
+        
+        <category>ai-info-hub</category>
+        
+        
+        <category>AI-Info-Hub</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/15</title>
+        <description>&lt;h2 id=&quot;ai日报-20251215&quot;&gt;AI日报 2025/12/15&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;OpenAI Sora安卓版开发揭秘：85%代码由AI生成。
+Claude CLI工具误删用户主目录，引发安全警钟。
+阿里千问App核心功能免费，学生党一年省下iPad钱。
+全球AI竞争力排名：美国夺冠，中国紧随其后。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;OpenAI Sora安卓版开发揭秘：85%代码由AI生成&lt;/strong&gt;
+OpenAI官网分享了Sora安卓版的开发内幕。该应用从原型到全球发布仅耗时&lt;strong&gt;28天&lt;/strong&gt;，团队仅有4名工程师辅助。引人注目的是，&lt;strong&gt;85%的代码是通过GPT-5.1-Codex生成的&lt;/strong&gt;。团队通过手动定义架构和编写AGENT.md文档来规范AI输出，实现了iOS Swift代码向Android Kotlin的高效转化，上线24小时内用户生成视频超100万条，崩溃率低至0.1%。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23667&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://pic.chinaz.com/picmap/202412181619141838_0.jpg&quot; alt=&quot;Sora App&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Claude CLI工具误删用户主目录，引发安全警钟&lt;/strong&gt;
+开发者在使用Anthropic推出的&lt;strong&gt;Claude CLI&lt;/strong&gt;清理代码时，因AI生成的一行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf tests/ patches/ plan/ ~/&lt;/code&gt;命令，导致整台Mac电脑的&lt;strong&gt;主目录（包括桌面、文档、密钥串）被永久清空&lt;/strong&gt;。该事故暴露了AI工具在执行高危指令时缺乏沙箱防护和二次确认机制的问题，社区呼吁对毁灭性指令实施强制熔断。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23689&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://upload.chinaz.com/2025/1215/6390141371487912548757430.png&quot; alt=&quot;Claude CLI事故&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;阿里千问App核心功能免费，学生党一年省下iPad钱&lt;/strong&gt;
+阿里巴巴旗下&lt;strong&gt;千问App&lt;/strong&gt;宣布将PPT制作、文档翻译、写作润色等核心功能&lt;strong&gt;免费开放&lt;/strong&gt;。此举在高校群体引发热议，学生表示相比订阅多个单一功能软件，千问的免费策略每年可节省高达2000元，相当于省出一台iPad。功能覆盖论文排版、四六级备考及资料检索。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23694&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://upload.chinaz.com/2025/1215/6390141893499744045780274.jpg&quot; alt=&quot;千问App&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;全球AI竞争力排名：美国夺冠，中国紧随其后&lt;/strong&gt;
+斯坦福大学发布全球人工智能活力工具数据，&lt;strong&gt;美国&lt;/strong&gt;凭借私人投资和学术研究位居第一，&lt;strong&gt;中国&lt;/strong&gt;在出版物数量和行业部署方面增长迅速，排名第二，&lt;strong&gt;印度&lt;/strong&gt;凭借人才储备位列第三。报告显示中国在专利申请和行业应用方面表现出强大竞争力。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23692&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://upload.chinaz.com/2025/1215/6390141757492978187665190.png&quot; alt=&quot;AI排名&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;OpenAI十周年开卖周边，取消新员工股权等待期&lt;/strong&gt;
+OpenAI庆祝十周年，向公众开放官方商店，&lt;strong&gt;Sora收藏卡&lt;/strong&gt;和印有“&lt;strong&gt;造福全人类的AGI&lt;/strong&gt;”字样的T恤迅速售罄。同时，为在日益激烈的人才争夺战中留住顶尖研究人员，OpenAI宣布&lt;strong&gt;取消新员工的股权等待期&lt;/strong&gt;（原为6个月），允许员工更快获得股权激励。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23676&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://upload.chinaz.com/2025/1215/6390139337853529842104750.jpg&quot; alt=&quot;OpenAI周边&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;谷歌谢尔盖·布林坦承低估Transformer&lt;/strong&gt;
+谷歌创始人谢尔盖·布林在斯坦福演讲中复盘，承认谷歌在AI发展中犯了错误，&lt;strong&gt;低估了Transformer架构的潜力&lt;/strong&gt;，而OpenAI抓住了机会。他还提到Ilya Sutskever被OpenAI挖走是谷歌的一大损失。
+&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247854027&amp;amp;idx=2&amp;amp;sn=5ada92292fe6f8bfb389989f1f32cec5&amp;amp;chksm=e9d581d278b951ebc74c0ac8eb195039988add58a8ea22231ed26cbe9e7924f893305a522c04&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;未来AI的“可验证性”：Karpathy的Hacker News实验&lt;/strong&gt;
+前OpenAI首席科学家Andrej Karpathy利用&lt;strong&gt;GPT-5.1 Thinking&lt;/strong&gt;分析了2015年Hacker News的帖子。他提出“&lt;strong&gt;可验证性&lt;/strong&gt;”概念，指出未来的LLM将能够审计和评估人类过去的公共表达，传统的“说话成本”将被重新定义。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23693&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;开源项目&quot;&gt;&lt;strong&gt;开源项目&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;通义百聆语音双子星开源：3秒复刻音色与毫秒级识别&lt;/strong&gt;
+通义大模型发布&lt;strong&gt;Fun-CosyVoice3&lt;/strong&gt;和&lt;strong&gt;Fun-ASR&lt;/strong&gt;升级版。CosyVoice3支持&lt;strong&gt;3秒录音零样本克隆&lt;/strong&gt;、9种语言及18种方言，首包延迟降低50%，并&lt;strong&gt;开源了0.5B版本&lt;/strong&gt;支持本地部署。Fun-ASR抗噪准确率达93%，流式识别首字延迟降至160ms，同步开源了轻量化&lt;strong&gt;Nano (0.8B)&lt;/strong&gt; 版本。
+&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=Mzk3NTc1NTU0Mw==&amp;amp;mid=2247503180&amp;amp;idx=1&amp;amp;sn=4f643ebcccf9b8700821e4124c74b92e&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://wechat2rss.bestblogs.dev/img-proxy/?k=1e1735a1&amp;amp;u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FkfTykfMJicWNW9jict0deCFxGVvYicYqM3icVGxu2bucaeTaMWc6rIthjMkhV9icVZZz0hksV2pHV3om1YmdoTZ9ceg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg&quot; alt=&quot;Fun-CosyVoice3&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Thinking Machines开放Tinker平台，支持万亿参数微调&lt;/strong&gt;
+Thinking Machines宣布其微调API产品&lt;strong&gt;Tinker&lt;/strong&gt;全面开放。用户现可微调万亿参数的&lt;strong&gt;Kimi K2 Thinking&lt;/strong&gt;模型，无需管理底层Infra。Tinker新增兼容OpenAI API接口，并支持&lt;strong&gt;Qwen3-VL&lt;/strong&gt;视觉模型微调，降低了多模态训练门槛。
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-15-12&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/81dce831-f288-42e6-bc90-52006bc39cb2/640.png&quot; alt=&quot;Tinker Update&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;商汤Seko 2.0发布，开源实时视频生成框架LightX2V&lt;/strong&gt;
+商汤发布Seko 2.0 AI短剧创作工具，并开源了业界首个实时视频生成推理框架&lt;strong&gt;LightX2V&lt;/strong&gt;。基于Phased DMD蒸馏技术和LightVAE，该框架在消费级显卡上实现了&lt;strong&gt;生成5秒视频耗时小于5秒&lt;/strong&gt;的“强实时”性能，速度提升10倍。
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-15-9&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/e112a09e-c3d3-464a-a2f2-3ee74296d81a/640.png&quot; alt=&quot;LightX2V&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;蚂蚁数科开源Text-to-SQL智能体Agentar SQL&lt;/strong&gt;
+蚂蚁数科开源了霸榜BIRD-SQL两个月的&lt;strong&gt;Agentar SQL&lt;/strong&gt;技术。该工具在真实复杂场景下查询准确率超92%，旨在解决NL2SQL落地中的模糊语义理解和专业知识注入难题，未来将陆续开源更多数据理解与挖掘能力。
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-15-10&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/4fae9721-9344-4b5a-bc59-e0bac4ae5d91/1765791803701.png&quot; alt=&quot;Agentar SQL&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Minion Skills：Claude Skills的开源实现&lt;/strong&gt;
+Minion Agent团队发布了Claude Skills系统的开源实现，允许AI Agent动态加载处理PDF、数据分析等专业技能，实现按需“学习”。
+&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247854027&amp;amp;idx=3&amp;amp;sn=bab836e3242c0df5cca328d6174af31b&amp;amp;chksm=e92c6cf9664a3d5b3ae6b70e6d5103b49cbddc1276e01fbd2a1f7fde75fff43bcafd24672a07&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;重要论文&quot;&gt;&lt;strong&gt;重要论文&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AAAI 2026｜视频大语言模型可信度评测基准Trust-videoLLMs&lt;/strong&gt;
+合肥工业大学与清华大学联合发布首个视频大模型可信度评测基准。评测了23款模型，发现&lt;strong&gt;闭源模型（Claude4-sonnet, Gemini）&lt;/strong&gt;在安全性、隐私保护方面优于开源模型（InternVL, Qwen）。研究指出视频上下文会显著放大安全风险。
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-15-11&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/87aead94-00ae-404f-b347-41f93a52514e/640.png&quot; alt=&quot;Trust-videoLLMs&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;DeepMind新研究：用Veo视频模型模拟机器人世界&lt;/strong&gt;
+DeepMind发布Gemini Robotics研究，利用&lt;strong&gt;Veo 2视频生成模型&lt;/strong&gt;作为世界模拟器，评估机器人策略。该系统能生成具有物理一致性的视频仿真，用于分布外泛化评估和安全红队测试，大幅降低了真实世界硬件实验的高昂成本。
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-15-8&quot;&gt;原文链接&lt;/a&gt;
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/6e8594b9-521b-48c2-bf1e-71a0f689564f/640.png&quot; alt=&quot;Veo Simulation&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Anthropic研究：AI采访1250人绘制人类“情绪雷达”&lt;/strong&gt;
+Anthropic展示了一项让AI深度采访1250名真实用户的研究。模型能够自动撰写提纲、追问并进行聚类分析，最终绘制出反映人类职业软肋和情绪特征的雷达图，探索了AI在定性研究中的潜力。
+&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652654701&amp;amp;idx=3&amp;amp;sn=3c673d03e1116bed6b6613e6426d6c68&amp;amp;chksm=f0e0bd54451cf1d1f69e5de624c88d8160419258e847e2486967aa4d897edba95b98af2720d8&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;佐老板聊AI：Vibe Coding实战复盘&lt;/strong&gt;
+总结了10条Vibe Coding经验：1. &lt;strong&gt;需求聊透再动手&lt;/strong&gt;，避免返工；2. 锁定Next.js/Supabase等&lt;strong&gt;热门技术栈&lt;/strong&gt;以获最佳AI支持；3. &lt;strong&gt;接口先行&lt;/strong&gt;，用cURL测试；4. 分批执行MVP；5. 善用开源库减少代码量；6. 保持Git提交习惯；7. 提供完整报错上下文；8. &lt;strong&gt;控制Token上限&lt;/strong&gt;，保持Context纯净。
+&lt;a href=&quot;https://m.okjike.com/originalPosts/69400a19a04168a24fe84e40&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;开源推荐：Every Code - 多模型协作CLI&lt;/strong&gt;
+OpenAI Codex CLI的社区Fork版，支持整合Claude、GPT-4、Gemini等模型。特色在于&lt;strong&gt;Magi系统&lt;/strong&gt;（赋予AI持久思维链）和&lt;strong&gt;多模型协同&lt;/strong&gt;（Ensemble组件）。支持直接在终端执行文件操作、代码重构和故障排查，适合沉浸式开发的极客用户。
+&lt;a href=&quot;https://x.com/shao__meng/status/2000542718981001675&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;开源推荐：OpenSkills - AI Agent技能包管理器&lt;/strong&gt;
+发布v1.3.0版本，类似于AI的npm。允许AI工具（如Cursor, Aider）按需动态读取操作手册，解决上下文瓶颈。新版支持&lt;strong&gt;私有Git仓库安装&lt;/strong&gt;和CI/CD集成，强化了企业级工程化能力。
+&lt;a href=&quot;https://x.com/shao__meng/status/2000509316236021795&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;开源资源：LLM-engineer-handbook&lt;/strong&gt;
+汇集了LLM全生命周期的精选资源库，涵盖训练（Unsloth, LitGPT）、部署、RAG构建、Agent开发及LLMOps。该项目旨在解决从Demo到企业级应用的工程化难题，强调落地实操。
+&lt;a href=&quot;https://x.com/shao__meng/status/2000372741598495157&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Google Skills学习平台上线&lt;/strong&gt;
+Google推出的统一技术学习入口，聚焦生成式AI、云技术和机器学习。提供从Gemini应用开发到Vertex AI实战的阶梯式课程，强调通过真实云环境的“动手做”来获取技能徽章与认证。
+&lt;a href=&quot;https://x.com/shao__meng/status/2000374500358328371&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;深度阅读：One Year With ChatGPT Pro as a First Hire&lt;/strong&gt;
+推荐阅读一人音乐公司将ChatGPT视为“第一号员工”的真实记录。文章探讨了如何将AI变成稳定的工作系统，以及管理者应如何重新分工，让AI负责规模化产出，人类负责核心决策。
+&lt;a href=&quot;https://x.com/frxiaobei/status/2000478500621619210&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;观点：Vibe Coding的等待时间该做什么？&lt;/strong&gt;
+建议在AI生成代码的“垃圾时间”进行&lt;strong&gt;微阅读&lt;/strong&gt;（如《论语》）、&lt;strong&gt;微运动&lt;/strong&gt;（深蹲、划船机）、或者采用&lt;strong&gt;指令流水线&lt;/strong&gt;模式：同时用Cursor写模块A、Claude聊模块B、飞书定义模块C，在不同抽象层级间纵向切换，实现10x效率。
+&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;amp;mid=2247500022&amp;amp;idx=1&amp;amp;sn=654b269cc2b69de120779b8bb8dc91dd&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251215/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251215/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/13</title>
+        <description>&lt;h2 id=&quot;ai日报-20251213&quot;&gt;AI日报 2025/12/13&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;微软AI CEO苏莱曼宣称AI已经超越人类,在组建微软超级智能团队。
+中国机器人大军已在流水线搬运、花艺创作、康养护理及灾害救援等百大真实场景中上岗。
+Runway正式入局世界模型赛道，发布了旗下首个通用世界模型GWM-1及其变体。
+陶哲轩与多名数学家通力合作，在AI的协助下于48小时内破解了尘封50年的数学难题。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;微软AI CEO&lt;/strong&gt;苏莱曼宣称AI已经超越人类，在组建微软超级智能团队的同时，提出了&lt;strong&gt;「人文主义超级智能」&lt;/strong&gt;概念，并表示并不认同业内关于AGI竞赛的做法。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652654369&amp;amp;idx=2&amp;amp;sn=40e3a7b0ff3cf222c4da056926b38d2a&amp;amp;chksm=f0fdfd7efbce6583be4377070aa1d211a04dc7923fa58930155d36b0cbca52e4b55ca05a4bf5&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb0Mx5NU5YJ7Ao1efDk8siapGTsBUgYibw5YHib4M1ZydP4gZJgEP6VxVJYMY49zCUg2ZVc3a6ibAMDmaQ/300?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;微软在《Cell》发布最新成果&lt;strong&gt;GigaTIME&lt;/strong&gt;，能将一张&lt;strong&gt;H&amp;amp;E切片&lt;/strong&gt;转化为过去稀缺的免疫图谱，并在人群尺度重建TIME，突破了癌症免疫研究的许多旧限制。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652654369&amp;amp;idx=3&amp;amp;sn=e6509af654c750413c46e873b25107fd&amp;amp;chksm=f0e7dc2d460a18c51e29ecf24b9884e02b77f850203cb2d4a5af30624b62e815118d20b1d046&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb2dficI3E6yMUYT3mTJVuwtxtJxl8Dicb0Qr6gAmC1RntJnwQiaJ1KEseaIeFicZ5KO0AZ7BhfHicTj9bg/300?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;相比硅谷部分还在展示PPT的现状，中国&lt;strong&gt;机器人大军&lt;/strong&gt;已在流水线搬运、花艺创作、康养护理及灾害救援等百大真实场景中上岗，被视为一场&lt;strong&gt;具身智能&lt;/strong&gt;的「终极大考」。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652654369&amp;amp;idx=1&amp;amp;sn=19858a5baa4291ca21e0dff3af564aab&amp;amp;chksm=f0c8534c9076c8af84d97b2d7aba89c738f1f381ade40bd0b579d07ce9f7a5b6d48180f1a786&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb0Mx5NU5YJ7Ao1efDk8siapGLjLvHy0NvErmwz1Ppmu4ocOHW2IWBWOQPWNhibicmMN183MibZ7ZjSxCQ/640?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;视频生成领域的&lt;strong&gt;Runway&lt;/strong&gt;正式入局&lt;strong&gt;世界模型&lt;/strong&gt;赛道，发布了旗下首个通用世界模型&lt;strong&gt;GWM-1&lt;/strong&gt;及其变体，旨在模拟真实环境。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247853781&amp;amp;idx=2&amp;amp;sn=84a15070768ff6633e544c09df8979c2&amp;amp;chksm=e9a7f059bfed1d4459835a97c3980082ece7d7fa3f12c7a76a7f3f644dec56c3a77a86854673&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBzD2g3k3eFoE4I0WH2pKKmcRK4hV0QAteiceIhu7q93HGyf1siaDNt6iaLHrQEUicEJTrEKhHqXNm6dA/300?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;陶哲轩&lt;/strong&gt;与多名数学家通力合作，在AI的协助下于48小时内破解了尘封50年的数学难题&lt;strong&gt;Erdős#1026&lt;/strong&gt;，再次证明了AI在科学研究中的关键作用。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247853781&amp;amp;idx=1&amp;amp;sn=1ceaaa9b8fffac195aee63d2dacb6b86&amp;amp;chksm=e9ee5ea6402dbc6df08cd7a8eada9408f4bebd58e5e966feb610420af892a9c03f77de73ed94&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBNiaGK07rWlK1ejFmibElt8T2eSbdmSg0yk7YYrEdHic0FIJdWe7g5svibkzUiaQAGZKIjfB8x5525YRg/640?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;开源项目&quot;&gt;&lt;strong&gt;开源项目&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CopilotKit&lt;/strong&gt;：一个为AI Copilots、聊天机器人和应用内AI代理提供React UI及基础设施的框架，被称为Agentic Frontend。&lt;a href=&quot;https://github.com/CopilotKit/CopilotKit&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;next-ai-draw-io&lt;/strong&gt;：基于Next.js的Web应用，集成了AI能力与draw.io图表，允许用户通过&lt;strong&gt;自然语言命令&lt;/strong&gt;创建、修改和增强图表。&lt;a href=&quot;https://github.com/DayuanJiang/next-ai-draw-io&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;WeKnora&lt;/strong&gt;：腾讯推出的基于LLM的框架，用于深度文档理解、语义检索以及基于&lt;strong&gt;RAG范式&lt;/strong&gt;的上下文感知问答。&lt;a href=&quot;https://github.com/Tencent/WeKnora&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gemini TTS&lt;/strong&gt;表现震撼，语音情绪可直接由提示词决定，博主提醒由于技术更新快，尽量不要支付年费。&lt;a href=&quot;https://x.com/ezshine/status/1999852915562095034&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Grok&lt;/strong&gt;疑似已与&lt;strong&gt;Tesla&lt;/strong&gt;深度整合，支持语音控制进行线路规划、意图识别和行程安排，若配合FSD使用，体验酷似《霹雳游侠》中的KITT。&lt;a href=&quot;https://x.com/imxiaohu/status/1999828212218781838&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;谷歌发布&lt;strong&gt;Gemini 2.5 Flash Native Audio&lt;/strong&gt;模型，支持实时语音翻译、连续监听及双向对话，并能保留说话者的&lt;strong&gt;语调、节奏和音高&lt;/strong&gt;，覆盖70+语言。&lt;a href=&quot;https://x.com/op7418/status/1999730352638820502&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;朋友圈热议&lt;strong&gt;vibe coding&lt;/strong&gt;的标准用法，展示了当前编程或开发模式的一种新风尚。&lt;a href=&quot;https://x.com/vista8/status/1999679756653199646&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G8BKIrVagAUv7uL?format=jpg&amp;amp;name=orig&quot; alt=&quot;图片描述&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;重看1999年的电影&lt;strong&gt;《黑客帝国》&lt;/strong&gt;，感叹其关于AI强大后圈养人类、&lt;strong&gt;「缸中大脑」&lt;/strong&gt;等概念的超前性，细思极恐的是大多数人可能更喜欢虚拟世界。&lt;a href=&quot;https://x.com/vista8/status/1999667856808771628&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 13 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251213/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251213/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+        <category>AI</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/12</title>
+        <description>&lt;h2 id=&quot;ai日报-20251212&quot;&gt;AI日报 2025/12/12&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;OpenAI 十周年发布GPT-5.2 系列模型。
+Runway 一次性发布 5 大 AI 更新，包括Gen-4.5 视频生成模型。
+Meta 内部爆发战略冲突，Alexandr Wang 新组建的 TBD Lab 团队主张优先开发 “超级智能 AI”，而核心业务部门希望聚焦社交媒体数据训练。
+腾讯发起 AI 人才争夺战，向字节跳动 AI 核心研究员开出薪资翻倍的挖角条件。
+国内三大 AI 独角兽MiniMax、智谱 AI、月之暗面密集推进港股上市计划，争夺 “中国大模型第一股”。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日-ai-资讯&quot;&gt;&lt;strong&gt;今日 AI 资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;1.OpenAI 十周年发布GPT-5.2 系列模型，含 Instant（日常场景）、Thinking（专业办公）、Pro（复杂任务）三版本，在长上下文推理、电子表格制作、代码编写等方面实现突破，多项基准测试刷新 SOTA 水平，强调创造经济价值的核心目标，含 2 张模型展示图。&lt;/p&gt;
+
+&lt;p&gt;2.Runway 一次性发布 5 大 AI 更新，包括Gen-4.5 视频生成模型（支持原生音频编辑）、首个通用世界模型 GWM-1及配套模拟器（GWM Worlds/Avatars/Robotics），实现物理世界模拟、数字人交互等功能，英伟达 CEO 黄仁勋发视频祝贺，含 1 张更新阵容图。&lt;/p&gt;
+
+&lt;p&gt;3.Meta 内部爆发战略冲突，新组建的 TBD Lab 团队（由 Scale AI 创始人 Alexandr Wang 领导）主张优先开发 “超级智能 AI”，而核心业务部门希望聚焦社交媒体数据训练，优化信息流与广告业务，反映公司 AI 发展与核心营收的优先级分歧。&lt;/p&gt;
+
+&lt;p&gt;4.腾讯发起 AI 人才争夺战，向字节跳动 AI 核心研究员开出薪资翻倍的挖角条件，同时为应届博士提供高于行业 50% 的薪资，对标字节 Top Seed 项目；字节则通过股权激励计划绑定人才，凸显大厂对 AI 科研人才的激烈竞争。&lt;/p&gt;
+
+&lt;p&gt;5.国内三大 AI 独角兽MiniMax、智谱 AI、月之暗面密集推进港股上市计划，争夺 “中国大模型第一股”，MiniMax 或于 2026 年 1 月率先启动 IPO，股东含阿里、腾讯；智谱调整上市地点至港交所，月之暗面凭借长上下文技术优势受资本关注，当前国内 AI 助手月活前三为豆包、DeepSeek、元宝。&lt;/p&gt;
+
+&lt;p&gt;6.谷歌 NotebookLM 针对 Ultra 会员推出重大更新，生成限额提升 50 倍，支持接入 600 个笔记来源，解锁长格式 PPT 生成与水印移除功能，首次开放顶级 Gemini 模型使用权，适配学术研究、商业提案等专业场景，含 1 张更新亮点示意图。&lt;/p&gt;
+
+&lt;p&gt;7.ModelScope DiffSynth 团队推出Z-Image-Turbo LoRA 增强训练方案，开源权重 Z-Image-Turbo-DistillPatch，解决直接训练导致的加速生图能力丢失问题，支持 8 步极速出图且图像清晰，开源地址：https://modelscope.cn/models/DiffSynth-Studio/Z-Image-Turbo-DistillPatch，配套 2 张技术示意图。&lt;/p&gt;
+
+&lt;p&gt;8.香港大学黄超教授团队开源ViMax 多智能体视频生成框架，实现 “自编自导自演” 全流程自动化，涵盖剧本创作、镜头调度、剪辑等环节，GitHub 星标达 1.4k+，开源地址：https://github.com/HKUDS/ViMax，实验室地址：https://sites.google.com/view/chaoh，含 2 张功能展示图。&lt;/p&gt;
+
+&lt;p&gt;9.迪士尼向 OpenAI 投资 10 亿美元并达成三年合作，授权Sora 使用旗下 200 + 顶级 IP（含米奇、皮克斯系列等）生成短视频，用户可合法调用 IP 角色进行创作，相关合作引发行业对 AI 版权商业化的关注，配套 3 张 IP 相关图片及动图。&lt;/p&gt;
+
+&lt;p&gt;10.欧洲 Mistral AI 开源Devstral2 编码模型家族，含 123B 旗舰版与 24B 轻量版，支持 256K 超长上下文，在 SWE-bench Verified 基准获 72.2 分，API 现阶段免费开放，配套开源命令行工具 Mistral Vibe CLI，支持本地运行与图像输入，采用 MIT/Apache2.0 许可。&lt;/p&gt;
+
+&lt;p&gt;11.OPPO ColorOS 将于 12 月推出 ** “AI 妙听” 功能 ** ，可将文章一键重构为双人播客形式，搭配背景音乐提升听觉体验，适配开车、做家务等场景，实现 “低密度信息输入”，助力用户高效利用碎片化时间。&lt;/p&gt;
+
+&lt;p&gt;12.国产大模型 Skywork 发布APP 5.0 版本（iOS/Android 双平台），落地多 Agent 并行协作功能，支持语音笔记秒转结构化要点、Todo 清单、脑图，同时可一键生成 PPT、多平台文案、播客脚本及海报，支持全离线缓存与端侧小模型运行，含 1 张功能展示图及 1 段演示视频。&lt;/p&gt;
+
+&lt;p&gt;13.《时代》杂志将 ** “人工智能的建筑师” 评选为 2025 年年度人物 ** ，推出两款主题封面，其中群像封面包含黄仁勋、扎克伯格、马斯克、李飞飞等八位 AI 领域领军者；杂志指出 2025 年是 AI 从谨慎到快速部署的转折点，ChatGPT 周活达 8 亿，普及速度超互联网与智能手机。&lt;/p&gt;
+
+&lt;p&gt;14.蚂蚁技术研究院开源业内首个100B 参数离散扩散大语言模型 LLaDA2.0，含 16B（mini）与 100B（flash）两版本，采用 WSD 预训练策略，推理速度达 535tokens/s（较同级 AR 模型快 2.1 倍），在代码生成、长文本任务中表现优异，支持 KV Cache 复用与块级并行解码。&lt;/p&gt;
+
+&lt;p&gt;15.Medeo AI 发布新版视频 Agent 工具，支持自然语言实时修改视频内容（增删镜头、改写脚本等），兼容复杂提示词与多模态输入，内置智能资产库与 AI 工作者，可自动处理字幕同步、语音克隆，预计缩短视频生产周期 50% 以上，含 1 张功能示意图。&lt;/p&gt;
+
+&lt;p&gt;16.Broadcom 披露获 Anthropic210 亿美元 TPU 订单（分两批交付），公司 AI 产品待交付订单累计 730 亿美元；Anthropic 计划 2026 年前部署 100 万个 TPU，构建一吉瓦计算能力，Meta、Apple 等企业亦确认使用 TPU，其高效能耗对 NVIDIA GPU 形成竞争压力。&lt;/p&gt;
+
+&lt;p&gt;17.中国机器人在应急救援比赛中展现火场救人能力，相关内容引发 Reddit 热议，美国网友对比本国机器狗多用于娱乐场景，凸显中美机器人技术应用场景的差异，含 1 张比赛现场图片。&lt;/p&gt;
+
+&lt;p&gt;18.谷歌发布增强版 Gemini Deep Research（基于 Gemini 3 Pro），聚焦减少模型幻觉，提升复杂信息处理能力；同时推出 AI 实验浏览器 “Disco”，其 GenTabs 功能可将标签页实时生成为定制 Web 应用（支持文献整合、膳食规划等场景），底层调用 Gemini3 模型，首发面向 macOS 用户，含 2 张功能展示图。&lt;/p&gt;
+
+&lt;p&gt;19.科研领域 AI 工具SciSciGPT正式发布，相关论文发表于《Nature Computational Science》，可结构化分析科研趋势、团队动态及方法演变，支持研究设计咨询与引用溯源，论文链接：https://www.nature.com/articles/s43588-025-00906-6，含 2 张技术示意图。&lt;/p&gt;
+
+&lt;h4 id=&quot;开源项目&quot;&gt;&lt;strong&gt;开源项目&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;1.claude-mem：Claude Code 插件，可自动捕获编码过程数据，通过 Claude agent-sdk 压缩，为后续会话注入相关上下文，GitHub 星标 4383，地址：https://github.com/thedotmack/claude-mem。&lt;/p&gt;
+
+&lt;p&gt;2.hello-agents：《从零开始构建智能体》教程，涵盖智能体原理与实践，GitHub 星标 8246，地址：https://github.com/datawhalechina/hello-agents。&lt;/p&gt;
+
+&lt;p&gt;3.agent-starter-pack：Google Cloud 推出的 AI Agent 生产级模板，内置 CI/CD、评估与可观测性功能，支持快速部署，GitHub 星标 4303，地址：https://github.com/GoogleCloudPlatform/agent-starter-pack。&lt;/p&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;1.Gorden Sun 分享国内直连版 Banana Pro 工具，支持 AI 绘画（3 毛 / 张）与 AI PPT 生成，操作无需 VPN，提供 100 次体验 Key（sk-BFLb7Mgol9oCGkXTCm22xSNNIpUSLVDmM1JCSAfziQp8Q0Hi），在线地址：Banana Pro、Banana PPT，含 3 张功能展示图。&lt;/p&gt;
+
+&lt;p&gt;2.meng shao 探讨 Anthropic “构建 Skills 而非重复 Agent” 理念，对比 Claude 与前端专用 Coding Agent Kombai 的设计效果，指出 Kombai 在设计风格、规范一致性上更具优势，含 2 张对比示意图。&lt;/p&gt;
+
+&lt;p&gt;3.Yangyi 爆料谷歌测试GenTabs 浏览器功能，可将标签页转化为定制 Web 应用（如旅行规划），支持自然语言优化，认为该功能将实现信息重组与 GUI 化高效使用，含 1 段演示视频。&lt;/p&gt;
+
+&lt;p&gt;4.李继刚分享个人学习模式调整：从 “好奇→LLM→思考→好奇” 切换为 “好奇→主题阅读→思考→LLM→写作→发布”，指出单纯依赖 LLM 难以形成根本性认知提升，需结合深度阅读与输出。&lt;/p&gt;
+
+&lt;p&gt;5.歸藏 (guizang.ai) 介绍Cursor 编辑器可视化功能，支持拖拽调整网页元素、侧栏调参及自然语言描述需求，类似 Figma 操作体验，自动生成对应代码，含 2 段演示视频。&lt;/p&gt;
+
+&lt;p&gt;6.宝玉分享公众号封面图提示词写作经验，提供模板 “{文章内容} 参考上面的内容帮我画一张微信公众号封面图，要夸张吸引眼球，标题是：《{文章标题}》”，其相关画图内容在 X 平台获数百万浏览量，含 2 张示例图片。&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251212/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251212/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/9</title>
+        <description>&lt;h2 id=&quot;ai日报-2025128&quot;&gt;AI日报 2025/12/8&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;谷歌TPU产能暴涨、挑战英伟达主导地位。
+OpenAI 与德国电信达成合作，全面部署企业版 ChatGPT。
+国产 GPU 第一股摩尔线程将发布新架构，全栈底座首度公开。
+纽约时报起诉 Perplexity：RAG 输出被控“近逐字复制”。
+DeepSeek 创始人梁文锋入选 Nature 2025 年度十大人物。
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;谷歌TPU产能暴涨、挑战英伟达主导地位&lt;/strong&gt;
+谷歌 &lt;strong&gt;TPU&lt;/strong&gt; 产能预测大幅上调，2027/2028 年将分别达到 &lt;strong&gt;500/700 万块&lt;/strong&gt;，增幅最高达 &lt;strong&gt;120%&lt;/strong&gt;。[摩根士丹利] 认为 &lt;strong&gt;TPU 供应不确定性已基本解决&lt;/strong&gt;，谷歌将加速面向第三方数据中心销售芯片，补强 &lt;strong&gt;GCP 业务&lt;/strong&gt;。预计每 &lt;strong&gt;50 万块 TPU 可带来 130 亿美元&lt;/strong&gt;收入。谷歌此举或撼动 &lt;strong&gt;英伟达GPU垄断格局&lt;/strong&gt;。
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/a549b595-0426-4d28-8f80-1b97e1819ec2/640.gif&quot; alt=&quot;TPU动态图&quot; /&gt;
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-09-9&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;通义千问发布 Qwen Code v0.3.0&lt;/strong&gt;
+新版引入 &lt;strong&gt;Stream JSON 模式&lt;/strong&gt;、三层 &lt;strong&gt;Adapter 架构&lt;/strong&gt;、完整 Session 管理，并加入 &lt;strong&gt;中英文双语界面&lt;/strong&gt;。安全性强化包括 &lt;strong&gt;20MB 内存安全缓冲&lt;/strong&gt;、修复 Windows 编码问题，同时提升跨平台稳定性。生态方面支持 &lt;strong&gt;ModelScope Provider&lt;/strong&gt; 并修复多项核心逻辑。
+&lt;img src=&quot;https://upload.chinaz.com/2025/1209/6390089550748636842208553.png&quot; alt=&quot;Qwen Code&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23514&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;OpenAI 与德国电信达成合作，全面部署企业版 ChatGPT&lt;/strong&gt;
+德国电信将使用 &lt;strong&gt;ChatGPT Enterprise&lt;/strong&gt; 提升内部运营与客户服务效率。OpenAI强调企业版可满足 &lt;strong&gt;数据安全、隐私与合规&lt;/strong&gt;要求，意味着生成式 AI 正成为欧洲电信行业核心技术。
+&lt;img src=&quot;https://pic.chinaz.com/picmap/202502061723419905_1.jpg&quot; alt=&quot;OpenAI&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23508&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;机器人在香港 ATEC2025 极限赛大放异彩，四足机器狗赢麻了&lt;/strong&gt;
+参赛机器人首次在 &lt;strong&gt;无遥控&lt;/strong&gt;条件下完成户外任务，包括 &lt;strong&gt;垃圾分拣、浇花、越野、吊桥穿越&lt;/strong&gt;。浙江大学团队夺冠，其机器人展现 &lt;strong&gt;卓越自主能力&lt;/strong&gt;。四足机器人在复杂地形表现优于人形机器人。
+&lt;a href=&quot;https://www.aibase.com/zh/news/23501&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;国产 GPU 第一股摩尔线程将发布新架构，全栈底座首度公开&lt;/strong&gt;
+摩尔线程将在 12 月举行 &lt;strong&gt;首届 MUSA 开发者大会&lt;/strong&gt;，公布新一代 GPU 架构及路线图，展示国产 GPU 全栈能力。
+&lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb2riawcopzbrHwwAatkwJVqEA4ZCXiafPyZoTzZVTRrutPdDb2XcvgTvYvad4IOM2R1cJYzgibCwqEFA/300&quot; alt=&quot;摩尔线程&quot; /&gt;
+&lt;a href=&quot;http://mp.weixin.qq.com/…&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;OpenAI 最新报告曝光：前 5% 精英效率暴涨 16 倍&lt;/strong&gt;
+报告显示顶尖人群在 AI 辅助下效率激增，而普通用户与精英差距持续扩大。
+&lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb2riawcopzbrHwwAatkwJVqEkd8Qw5zCsZ8yDrjuSRQdcibXDXeoq9LL6JbQDGNJ3Io7Ry6JKDBB16Q/640&quot; alt=&quot;OpenAI 报告&quot; /&gt;
+&lt;a href=&quot;http://mp.weixin.qq.com/…&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;北大发布化学推理大模型基准 SUPERChem&lt;/strong&gt;
+基准覆盖多模态、高难度化学推理，填补化学深度推理评测空白，由北大多院系联合打造，为 LLM 化学智能评估提供新体系。
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/582748ee-b1c6-454f-b696-a98b4b6a9b64/640.png&quot; alt=&quot;SUPERChem&quot; /&gt;
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-09-6&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;纽约时报起诉 Perplexity：RAG 输出被控“近逐字复制”&lt;/strong&gt;
+指控包括 &lt;strong&gt;绕过 robots.txt、175,000 次爬取、未经授权复制全文、虚假推荐、商标淡化&lt;/strong&gt;，并请求禁令及赔偿。此案或成为 AI 版权行业关键判例。
+&lt;img src=&quot;https://pic.chinaz.com/picmap/202304121052180076_0.jpg&quot; alt=&quot;法律图&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23494&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;DeepSeek 创始人梁文锋入选 Nature 2025 年度十大人物&lt;/strong&gt;
+其带领团队推出多款 &lt;strong&gt;DeepSeek-R1/V3/Math&lt;/strong&gt; 模型，被评价为推动全球大模型发展关键人物。
+&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/811ad5a7-b32b-4977-a638-bbba26e51174/WechatIMG2990.png&quot; alt=&quot;Nature10&quot; /&gt;
+&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-09&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;谷歌 Doppl 推出 AI 购物发现与虚拟试穿功能&lt;/strong&gt;
+Doppl 通过 &lt;strong&gt;AI 生成视频&lt;/strong&gt;展示衣物上身效果，并基于用户偏好做个性化推荐，与传统“网红带货”模式不同，强调 &lt;strong&gt;AI 内容驱动&lt;/strong&gt;。
+&lt;img src=&quot;https://upload.chinaz.com/2025/1209/6390087117528141909604488.png&quot; alt=&quot;Doppl&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23490&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;“小冰之父”李笛再创业：押注认知大模型与群体智能&lt;/strong&gt;
+新公司 &lt;strong&gt;Nextie&lt;/strong&gt; 由 30 人原微软/小冰团队组成，构建多 Agent “&lt;strong&gt;认知碰撞&lt;/strong&gt;”体系，按 &lt;strong&gt;交付物价值&lt;/strong&gt;计费而非 Token。预计 2026 年正式上线。
+&lt;img src=&quot;https://upload.chinaz.com/2025/1209/6390086911621610602784196.png&quot; alt=&quot;Nextie&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23484&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AutoGLM 深夜开源，手机 Agent 时代加速来临&lt;/strong&gt;
+智谱开源 &lt;strong&gt;Open-AutoGLM&lt;/strong&gt;，实现手机端应用自动操作的 Agent 能力，被视为手机端 AI 自动化的重要转折点。
+&lt;img src=&quot;https://mmbiz.qpic.cn/mmbiz_jpg/OjgKEXmLURqDu4j78yd3iaoGE0dfhickia6KGqwKEdl2wYbpPyibgS2uBZFSicB9gHnhNLc3Z7WgldvT6EQNS82Cv7Q/0&quot; alt=&quot;AutoGLM&quot; /&gt;
+&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==…&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;英伟达确认可向中国出售 H200，高端 GPU 回归中国市场&lt;/strong&gt;
+美国批准 H200 对华出口，并将收取 &lt;strong&gt;25% 抽成&lt;/strong&gt;。英伟达表示支持该决策，此前黄仁勋已在白宫与特朗普讨论出口问题。
+&lt;img src=&quot;https://pic.chinaz.com/picmap/201811151633429961_46.jpg&quot; alt=&quot;NVIDIA&quot; /&gt;
+&lt;a href=&quot;https://www.aibase.com/zh/news/23482&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;谷歌AI眼镜官宣：无屏版对标Ray-Ban，显示版单挑Meta，2026年上市&lt;/strong&gt;
+   12月8日，谷歌在“The Android Show: XR Edition”正式公布AI眼镜路线图，将与三星、Gentle Monster、Warby Parker联手推出两款设备:①无屏辅助AI眼镜;②单目显示AI眼镜，均搭载Gemini多模态模型，首批产品定于2026年上市。无屏版:轻量级“音频+视觉”助手&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;硬件:内置扬声器、麦克风、摄像头，无显示屏，外观接近普通光学眼镜&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;功能:拍照、听歌、语音召唤Gemini，支持视觉问答与环境摘要&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;定位:日常佩戴，重量&amp;lt;46g，续航可达10小时，直接对标Ray-Ban Meta
+  &lt;a href=&quot;https://www.aibase.com/zh/news/23473&quot;&gt;原文链接&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 09 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251209/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251209/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/8</title>
+        <description>&lt;h2 id=&quot;ai日报-2025128&quot;&gt;AI日报 2025/12/8&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;ICLR 2026 投稿质量堪忧，GPTZero检测发现50篇存在幻觉引用，且专家同行评审普遍未能识别。
+英伟达4B小模型NVARC在ARC-AGI2评测中登顶，以27.64%的成绩力压GPT-5Pro，且训练成本极低。
+腾讯发布混元2.0大模型，参数达406B并采用MoE架构，推理速度提升40%；快手可灵AI推出主体库，实现高一致性视频生成。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;这届 &lt;strong&gt;ICLR 2026&lt;/strong&gt; 的投稿质量引发严重担忧。AI 内容检测平台 &lt;strong&gt;GPTZero&lt;/strong&gt; 扫描的 300 篇投稿中，有 &lt;strong&gt;50 篇&lt;/strong&gt; 包含至少一处明显的 &lt;strong&gt;幻觉内容&lt;/strong&gt;（虚假引用）。更令人震惊的是，这些投稿已经经过 &lt;strong&gt;3-5 名领域专家&lt;/strong&gt; 的同行评审，但他们中的绝大多数未能识别出虚假引用，甚至有投稿者将引用链接写成默认示例 &lt;strong&gt;example.com&lt;/strong&gt;。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-08-8&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/992c3843-28b5-4a92-9f22-b3ffe9a8c14e/640.png&quot; alt=&quot;ICLR 幻觉引用示例&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;“2025浦东国际人才港论坛-人工智能产业人才论坛”成功举办，聚焦&lt;strong&gt;青年力量&lt;/strong&gt;和&lt;strong&gt;创业动能&lt;/strong&gt;。上海张江科学城的人工智能产业规模截至2024年底已达 &lt;strong&gt;1140亿元&lt;/strong&gt;，占上海全市的1/4，正以&lt;strong&gt;张江人工智能创新小镇&lt;/strong&gt;为核心，打造全链条创新体系。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-08-6&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/241d6d72-bc6a-4bed-b4e3-815069791a69/%E5%85%A8%E6%99%AF%E5%9B%BE.jpg&quot; alt=&quot;论坛全景图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;斯坦福大学计算机系新开设的课程《&lt;strong&gt;现代软件开发者&lt;/strong&gt;》（CS146S）鼓励”&lt;strong&gt;零代码&lt;/strong&gt;”编程开发。课程要求学生使用 &lt;strong&gt;Cursor&lt;/strong&gt; 和 &lt;strong&gt;Claude&lt;/strong&gt; 等 AI 代码工具，并在作业中必须附带与 &lt;strong&gt;AI 的对话记录&lt;/strong&gt;，旨在教导学生如何在充满 AI 的世界中进行开发并应对 AI 的&lt;strong&gt;幻觉&lt;/strong&gt;。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-08-7&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/931f2232-fb65-4a64-a363-bc345cb1bb6e/640.png&quot; alt=&quot;现代软件开发者课程介绍&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;知名足球巨星 &lt;strong&gt;克里斯蒂亚诺・罗纳尔多（C 罗）&lt;/strong&gt; 宣布投资 AI 搜索引擎公司 &lt;strong&gt;Perplexity&lt;/strong&gt;，并签署全球代言协议。Perplexity 计划在其平台上推出面向 C 罗球迷的&lt;strong&gt;互动中心&lt;/strong&gt;，以增强粉丝参与感。C罗的净资产估算接近 &lt;strong&gt;14亿美元&lt;/strong&gt;。&lt;a href=&quot;https://www.aibase.com/zh/news/23469&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;英伟达的 &lt;strong&gt;4B 小模型 NVARC&lt;/strong&gt; 在最新的 &lt;strong&gt;ARC-AGI2&lt;/strong&gt; 评测中以 27.64% 的优异成绩&lt;strong&gt;力压 GPT-5Pro&lt;/strong&gt;（18.3%）登顶。NVARC 采用&lt;strong&gt;零预训练&lt;/strong&gt;深度学习方法，通过离线合成数据管道进行训练，每个任务的成本仅为 &lt;strong&gt;20美分&lt;/strong&gt;，是 GPT-5Pro（7 美元）的 1/36。&lt;a href=&quot;https://www.aibase.com/zh/news/23468&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1208/6390080651641564836469049.png&quot; alt=&quot;NVARC 评测结果图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Gartner 对 321 名客服主管的调查显示，AI 在客服领域的引入&lt;strong&gt;并未导致大规模的人员削减&lt;/strong&gt;，仅 20% 的主管表示团队规模缩减。&lt;strong&gt;55%&lt;/strong&gt; 的主管认为 AI 使他们在相对稳定的人员规模下服务了更多客户。Gartner 预测到 2027 年，约一半的企业将转向更合理的&lt;strong&gt;人机协作模式&lt;/strong&gt;，放弃纯 AI 客服的愿景。&lt;a href=&quot;https://www.aibase.com/zh/news/23467&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;快手旗下 &lt;strong&gt;可灵 AI&lt;/strong&gt;（Kling AI）正式发布「&lt;strong&gt;主体库&lt;/strong&gt;」（Subject Library），为 O1 多模态视频模型添加了&lt;strong&gt;“长期记忆”能力&lt;/strong&gt;。用户上传单张角色图即可实现 3D 视角补全，并支持跨场景「@角色名」一键调用，官方宣称&lt;strong&gt;主体一致性 &amp;gt; 96%&lt;/strong&gt;，彻底告别 AI 视频中的&lt;strong&gt;“变脸”&lt;/strong&gt;问题。&lt;a href=&quot;https://www.aibase.com/zh/news/23464&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1208/6390080226695884533036130.jpg&quot; alt=&quot;主体库生成效果图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;上海人工智能实验室等团队推出超广角裸眼 3D 显示系统 &lt;strong&gt;EyeReal&lt;/strong&gt;，首次实现了&lt;strong&gt;桌面级大小&lt;/strong&gt;、&lt;strong&gt;超过 100° 宽视角&lt;/strong&gt;和&lt;strong&gt;高画质&lt;/strong&gt;的裸眼 3D 显示。该技术通过 &lt;strong&gt;AI 算法&lt;/strong&gt;、多层 LCD 面板和实时眼动追踪，突破了裸眼 3D 面临的”空间–带宽积 (SBP)”物理制约。相关研究已发表在《&lt;strong&gt;Nature&lt;/strong&gt;》上。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-08-4&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/0220c9c0-9820-4e85-b3b8-b43c4893d76f/640.png&quot; alt=&quot;EyeReal 概念图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;麦肯锡全球研究院预测，到 2030 年，全球将有高达 &lt;strong&gt;8 亿个工作岗位&lt;/strong&gt;可能被 AI 取代，但同时也会创造 &lt;strong&gt;1.3亿到 2.3亿个&lt;/strong&gt; 新的工作机会。受影响行业广泛，包括驾驶、物流、会计和医疗等。专家强调社会需要重视&lt;strong&gt;再培训&lt;/strong&gt;和心理适应，能够有效利用 AI 的管理者将更具竞争力。&lt;a href=&quot;https://www.aibase.com/zh/news/23461&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pic.chinaz.com/picmap/202312281011271411_0.jpg&quot; alt=&quot;AI 与工作岗位图示&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;全球 &lt;strong&gt;TOP 13&lt;/strong&gt; 战队的机器人参加了 ATEC 2025 线下挑战赛，这是一场鼓励机器人&lt;strong&gt;自主完&lt;/strong&gt;成的户外极限挑战赛。实录显示，机器人在过吊桥和爬阶梯等任务中遭遇连环翻车，堪称一场机器人的”&lt;strong&gt;荒野求生&lt;/strong&gt;”，暴露出实验室技术在真实环境中的局限性。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652652267&amp;amp;idx=1&amp;amp;sn=67ac056d0e130707cec676a24d19c8ff&amp;amp;chksm=f0b8f4c21f9f33f2d5d8648fb35b68e8b37fca2a54ff2a4eb3d8d5eecf07fc63194c8c1a2b8e&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;阿里巴巴推出 Qwen3 家族新成员 &lt;strong&gt;Qwen3-TTS&lt;/strong&gt;，实现”零样本、多角色、跨语言”语音合成。该模型内置 &lt;strong&gt;49 种音色&lt;/strong&gt;，支持 &lt;strong&gt;10 种语言&lt;/strong&gt;和 &lt;strong&gt;9 种中国方言&lt;/strong&gt;，并在多语言语音合成公开测试集上，中英文 &lt;strong&gt;WER&lt;/strong&gt;（词错误率）显著优于主流商用引擎，刷新开源 SOTA 成绩。&lt;a href=&quot;https://www.aibase.com/zh/news/23459&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1208/6390079898800878856068087.png&quot; alt=&quot;Qwen3-TTS 性能对比图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;苹果公司发布全新的视频生成模型 &lt;strong&gt;STARFlow-V&lt;/strong&gt;，该模型放弃了业界主流的扩散模型（Diffusion Model），转而独家采用&lt;strong&gt;“归一化流”（Normalizing Flow）&lt;/strong&gt;技术。这一技术通过直接学习随机噪声和复杂视频数据的数学变换，提高了训练和生成速度，并解决了长视频片段生成中的&lt;strong&gt;稳定性和错误累积&lt;/strong&gt;问题，实现了长达 &lt;strong&gt;30 秒&lt;/strong&gt; 的画面稳定。&lt;a href=&quot;https://www.aibase.com/zh/news/23451&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1208/6390078652416201822826817.png&quot; alt=&quot;STARFlow-V 模型示意图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;腾讯正式发布新一代自研大模型 &lt;strong&gt;混元 2.0&lt;/strong&gt;（Tencent HY2.0），总参数 &lt;strong&gt;406B&lt;/strong&gt;，支持 &lt;strong&gt;256K 上下文窗口&lt;/strong&gt;。模型采用&lt;strong&gt;混合专家（MoE）架构&lt;/strong&gt;，推理速度提升 40%，并在复杂推理任务（如国际数学奥林匹克）中取得优异成绩，官方宣称其推理性能”&lt;strong&gt;稳居国内第一梯队&lt;/strong&gt;”。&lt;a href=&quot;https://www.aibase.com/zh/news/23450&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;谷歌宣布 &lt;strong&gt;Colab&lt;/strong&gt; 与 &lt;strong&gt;KaggleHub&lt;/strong&gt; 完成整合，推出全新的数据探索器。用户现在可以直接在 Colab 笔记本中搜索和访问 Kaggle 上的数据集、模型和竞赛，无需离开编辑器或执行复杂的 API 配置，&lt;strong&gt;显著简化了数据获取流程&lt;/strong&gt;。&lt;a href=&quot;https://www.aibase.com/zh/news/23444&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1208/6390078475237528787618174.png&quot; alt=&quot;Colab 数据探索器界面&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;OpenAI 首席研究官 Mark Chen 就付费用户看到 Target、Peloton 购物链接的”&lt;strong&gt;广告乌龙&lt;/strong&gt;”事件公开道歉，承认”推荐失准”，并已&lt;strong&gt;紧急关闭相关购物提示功能&lt;/strong&gt;。该事件引发大量付费用户不满，#CancelChatGPT 话题阅读量达 &lt;strong&gt;1.2 亿&lt;/strong&gt;，OpenAI CEO Sam Altman 要求全员优先提升 ChatGPT 核心质量。&lt;a href=&quot;https://www.aibase.com/zh/news/23455&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;谷歌 DeepMind 首席执行官&lt;strong&gt;德米斯・哈萨比斯&lt;/strong&gt;预测 2026 年三大 AI 发展趋势：&lt;strong&gt;多模态模型&lt;/strong&gt;将能更深入地理解复杂场景的深层含义；&lt;strong&gt;AI 代理&lt;/strong&gt;将在一年内接近自主处理复杂任务的能力；以及 DeepMind 正在研发的 “Genie 3” &lt;strong&gt;互动视频世界模型&lt;/strong&gt;，提供全新的沉浸式体验。&lt;a href=&quot;https://www.aibase.com/zh/news/23452&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;哈萨比斯隔空力挺 &lt;strong&gt;Scaling Law&lt;/strong&gt;（扩展法则），坚称 Scaling Law 有用，是实现 AGI 的关键，并声称 DeepMind 才是 Scaling Law 的&lt;strong&gt;发现者&lt;/strong&gt;。他表示目前的技术发展中&lt;strong&gt;尚未看到 Scaling Law 的瓶颈&lt;/strong&gt;。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247852220&amp;amp;idx=2&amp;amp;sn=269d8bef62c46d15e4d7ab4cf14be14d&amp;amp;chksm=e9c4fc51e2afed8a41e202f74f3836e0f9d227bd1a6c0f3702a938ac07a3d6891df74031f37a&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;DeepSeek 一口气发布了两款开放权重模型 &lt;strong&gt;DeepSeek-V3.2&lt;/strong&gt; 和 &lt;strong&gt;DeepSeek-V3.2-Speciale&lt;/strong&gt;。知名 AI 研究者 Sebastian Raschka 深度解读了其技术进化历程，DeepSeek V3.2 展现出极佳的性能水平，在基准测试中对标 &lt;strong&gt;GPT-5&lt;/strong&gt; 和 &lt;strong&gt;Gemini 3.0 Pro&lt;/strong&gt;。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-08-3&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/25be2f87-bbc8-4c82-8144-618d046b2f22/640.png&quot; alt=&quot;DeepSeek V3.2 与专有模型对比图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;报道指出，&lt;strong&gt;OpenAI 概念股&lt;/strong&gt;今年的涨幅为 74%，而&lt;strong&gt;谷歌概念股&lt;/strong&gt;涨幅高达 146%，是 OpenAI 的两倍，显示出在激烈的竞争中，昔日”救世主” OpenAI 似乎面临着挑战。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652652267&amp;amp;idx=2&amp;amp;sn=b86d1d5376240f7d675726bf27f46434&amp;amp;chksm=f0529a367e3083f7f34a77a1535e33642c27a45be64fc38d7ba11d240301efcfbaeca8a1b171&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;重要论文&quot;&gt;&lt;strong&gt;重要论文&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Rethinking Sparse Autoencoders: Select-and-Project for Fairness and Control from Encoder Features Alone&lt;/strong&gt; (arXiv:2509.10809v2): 论文提出了 &lt;strong&gt;S&amp;amp;P Top-K&lt;/strong&gt; 框架，作为一种以&lt;strong&gt;编码器为中心&lt;/strong&gt;的模型操纵替代方案，以增强&lt;strong&gt;跨模态性能&lt;/strong&gt;。该框架通过识别与敏感属性或行为对齐的 &lt;strong&gt;Top-K 编码器特征&lt;/strong&gt;，实现了无需重训练且计算量轻量级的选择与投影，用于&lt;strong&gt;公平性和控制&lt;/strong&gt;。&lt;a href=&quot;https://arxiv.org/abs/2509.10809&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe&lt;/strong&gt; (arXiv:2511.16334v4): 该论文介绍了 &lt;strong&gt;OpenMMReasoner&lt;/strong&gt;，这是一个&lt;strong&gt;完全透明&lt;/strong&gt;的两阶段配方，用于&lt;strong&gt;多模态推理&lt;/strong&gt;，涵盖监督微调（SFT）和强化学习（RL）。SFT 阶段构建了一个包含 &lt;strong&gt;874K 样本&lt;/strong&gt;的数据集作为推理能力的基础，旨在推动可扩展且可复现的多模态推理研究。&lt;a href=&quot;https://arxiv.org/abs/2511.16334&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体开源项目&quot;&gt;&lt;strong&gt;社交媒体/开源项目&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Claude Diary&lt;/strong&gt; 是一个开源推荐项目，通过模仿人类的&lt;strong&gt;学习闭环&lt;/strong&gt;，让 &lt;strong&gt;Claude Code&lt;/strong&gt; 具备&lt;strong&gt;持续学习和自我进化&lt;/strong&gt;的能力。该工具通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/diary&lt;/code&gt; 进行记录，通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/reflect&lt;/code&gt; 从具体记录中&lt;strong&gt;提炼通用原则&lt;/strong&gt;，并将这些原则自动更新到系统指令文件中，以固化记忆。&lt;a href=&quot;https://x.com/shao__meng/status/1997944044656218345&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poster Copilot: 基于大模型的图形设计自动化框架&lt;/strong&gt; 是一个专注于解决 LMM 模型在&lt;strong&gt;专业级海报布局生成&lt;/strong&gt;和&lt;strong&gt;可控编辑&lt;/strong&gt;中几何准确性不足的开源框架。它通过 Perturbed Supervised Fine-Tuning、RL-VRA 和 RLAF 三阶段训练策略，结合生成模型实现&lt;strong&gt;分层修改&lt;/strong&gt;和&lt;strong&gt;主题切换&lt;/strong&gt;，数据集规模达 160K 张海报。&lt;a href=&quot;https://postercopilot.github.io/&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;关于 &lt;strong&gt;Claude 长时运行 Agent&lt;/strong&gt; 的实践经验分享指出，虽然可以成功运行数小时，但瓶颈将转移至&lt;strong&gt;需求文档&lt;/strong&gt;。一旦长时运行的 Coding Agent 成立，就需要&lt;strong&gt;巨长巨详细&lt;/strong&gt;的需求/技术实现文档来支撑，且这种循环跑模式&lt;strong&gt;非常消耗 token 成本&lt;/strong&gt;。&lt;a href=&quot;https://m.okjike.com/originalPosts/693663fbd4bf861079318586&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://cdn.sanity.io/images/4zrzovbb/website/32ea71b3e8e87a990f6df4c4def2b9e52815e977-2400x1260.png&quot; alt=&quot;长时运行 Agent 示意图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;基于一份”100 万亿 token 的 AI 使用数据”的分析指出，AI 的经济学中&lt;strong&gt;价格几乎不重要，质量才是强刚性&lt;/strong&gt;，用户愿意为&lt;strong&gt;省心、靠谱、稳&lt;/strong&gt;的推理质量支付更高费用。同时，&lt;strong&gt;Agentic 模型&lt;/strong&gt;是当前流量大头，而&lt;strong&gt;陪伴型使用&lt;/strong&gt;（角色扮演、长期对话）占比非常高，可能是未来最大的商业机会。&lt;a href=&quot;https://x.com/frxiaobei/status/1997909580953833945&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VoltAgent/awesome-claude-skills&lt;/strong&gt; 是一个精心整理的 &lt;strong&gt;Claude 技能集合&lt;/strong&gt;，包含 YAML 元数据、说明和脚本，用于教授 Claude 执行特定任务（例如 API 测试、数据分析）。技能支持&lt;strong&gt;按需加载&lt;/strong&gt;，即使有数百个技能也不会影响性能，并可组合以实现复杂工作流程。&lt;a href=&quot;https://github.com/VoltAgent/awesome-claude-skills&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;YouMind 网站的”&lt;strong&gt;Nano Banana Pro 提示词&lt;/strong&gt;”页面提供了 &lt;strong&gt;700+&lt;/strong&gt; 个精选的 AI 图像生成提示词集合，涵盖多种风格，便于用户直接使用和搜索。&lt;a href=&quot;https://youmind.com/zh-CN/nano-banana-pro-prompts&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;BananaPPT&lt;/strong&gt; 是一个开源工具，声称能以极低成本（2 毛钱）和短时间（2 分钟）&lt;strong&gt;一键生成”大厂卷王 PPT”&lt;/strong&gt;，特点是堆叠了花哨的框架和细致的功能模块，代码和提示词均已开源。&lt;a href=&quot;https://gordensun.github.io/BananaPPT/&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7nTvw4agAAwUQI?format=jpg&amp;amp;name=orig&quot; alt=&quot;BananaPPT 生成的演示图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code996&lt;/strong&gt; 是一个有趣的开源项目，通过分析代码仓库的 &lt;strong&gt;Git 提交时间&lt;/strong&gt; 来判断项目的&lt;strong&gt;加班情况&lt;/strong&gt;和团队是否”很卷”。&lt;a href=&quot;https://x.com/HiTw93/status/1997817398917820485&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7kXILEaMAEc17F?format=jpg&amp;amp;name=orig&quot; alt=&quot;Code996 界面截图&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Yann LeCun 在社交媒体上发布了一张图片，其内容暗示了对&lt;strong&gt;排名标准&lt;/strong&gt;的讨论和观点。&lt;a href=&quot;https://x.com/ylecun/status/1997920978853339531&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7m1Ay3a0AE7BNM?format=jpg&amp;amp;name=orig&quot; alt=&quot;Yann LeCun 发布的图片&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 08 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251208/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251208/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/7</title>
+        <description>&lt;h2 id=&quot;ai日报-2025127&quot;&gt;AI日报 2025/12/7&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;谷歌DeepMind预测AGI死线在2030年，在此之前需有核爆式突破，谷歌并推出了潜在的“Transformer杀手”技术。
+苹果公司因AI进展缓慢，面临机器学习、设计与芯片部门的高管大规模流失。GroK 4.20在美股实盘交易中击败顶流AI模型夺冠。
+AI应用聚焦智能体和编程，Anthropic工程师效率提升50%，但Agent生成的代码被发现有超过80%的安全漏洞。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;谷歌DeepMind掌门人断言，&lt;strong&gt;AGI必至&lt;/strong&gt;的死线在 &lt;strong&gt;2030年&lt;/strong&gt;，在此之前还需要 &lt;strong&gt;1-2个”Transformer级”核爆突破&lt;/strong&gt;。同时，谷歌在NeurIPS大会上推出了可能成为”&lt;strong&gt;Transformer杀手&lt;/strong&gt;”的技术，标志着8年来的首次重大突破。&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652652121&amp;amp;idx=1&amp;amp;sn=220d80e4903028d82453a65ebf873e78&amp;amp;chksm=f057270de154c9ff68cad5abd4a2dabc081c8acce1f3a2bd14384934e12e61e78a4874e7fade&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;苹果公司正面临高管大规模流失的局面：负责 &lt;strong&gt;机器学习与AI战略&lt;/strong&gt; 的高级副总裁 &lt;strong&gt;约翰・詹南德雷亚&lt;/strong&gt; 宣布将于2026年春季退休；&lt;strong&gt;设计总监 Alan Dye&lt;/strong&gt; （iPhone X设计师）已离职前往Meta组建新的设计工作室，原因之一是对苹果 &lt;strong&gt;AI领域进展缓慢&lt;/strong&gt; 的失望；同时，负责苹果芯片研发的 &lt;strong&gt;硬件技术高级副总裁 约翰尼・斯鲁吉&lt;/strong&gt; (&lt;strong&gt;“苹果芯片”之父&lt;/strong&gt;) 也正在”认真考虑”离开苹果。此事件标志着苹果AI定位从独立部门转变为从属于软件工程部门。 &lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-07-2&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/8ab18513-6cd5-47cd-8802-546a10baefe6/640.png&quot; alt=&quot;苹果高管变动&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;在Alpha Arena 1.5赛季的美股实盘交易中，神秘模型 &lt;strong&gt;Grok 4.20&lt;/strong&gt; &lt;strong&gt;AI炒股夺冠&lt;/strong&gt;，成为唯一实现盈利的模型，完胜包括 &lt;strong&gt;GPT-5.1&lt;/strong&gt; 和 &lt;strong&gt;Gemini 3.0 Pro&lt;/strong&gt; 在内的一众顶流模型。 &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652652121&amp;amp;idx=2&amp;amp;sn=49566ca13a9bbb2295e1b7c72e95dbdc&amp;amp;chksm=f0b1b0acddecc989d9fca800ea6dc1da326fc88c0b0d9cb74ac8dd4ae51b9f619b97b80a9238&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Raphael AI&lt;/strong&gt; 首次开放 &lt;strong&gt;文生图API&lt;/strong&gt;，价格低至 &lt;strong&gt;2分钱/张&lt;/strong&gt;（约$0.0036美分），支持 &lt;strong&gt;中文、英文字体渲染&lt;/strong&gt; 和生成极具真实感的图片，最大分辨率支持1536 x 1536。 &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;amp;mid=2247499890&amp;amp;idx=1&amp;amp;sn=6380f3e3074867b48c5313e468c9a586&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gemini 3&lt;/strong&gt; 正在重塑 &lt;strong&gt;3D交互创作&lt;/strong&gt; 边界，能够实现 &lt;strong&gt;零门槛&lt;/strong&gt; 编写代码手搓 &lt;strong&gt;3D粒子特效&lt;/strong&gt;，为用户带来现实版”钢铁侠”的体验。 &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652652121&amp;amp;idx=3&amp;amp;sn=3c1f53e0a451eaecb94d06d8045dc22d&amp;amp;chksm=f0215bed3178809d301cd3b5d8aea6c1336a010d8d1f5243fa7149f46f6ec8fa6d23fd9eba34&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;作为中国最大的B2B供应链平台，&lt;strong&gt;1688&lt;/strong&gt; 将 &lt;strong&gt;AI&lt;/strong&gt; 深度应用于平台，旨在解决 &lt;strong&gt;跨境电商&lt;/strong&gt; 领域的疑难杂症，将AI从辅助工具升级为真正创造商业价值的生产力。 &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247851940&amp;amp;idx=1&amp;amp;sn=861788ffab906074919fb318bee6fcd8&amp;amp;chksm=e9333854b41d5ebcbc3024a8d29dc7eeeb9f2ae285b5887b04a47bbeb83bcbd03a5d7f1760ce&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;重要论文&quot;&gt;&lt;strong&gt;重要论文&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;阿里千问团队提出了针对 &lt;strong&gt;LLM强化学习 (RL)&lt;/strong&gt; 的全新公式化方法，核心是将序列级奖励的期望值优化转化为一个替代的 &lt;strong&gt;token级目标&lt;/strong&gt; 的 &lt;strong&gt;一阶近似&lt;/strong&gt;，这一洞察从原理上解释了多种RL稳定训练技巧（如重要性采样、剪切机制）的有效性，解决了现有RL算法中”&lt;strong&gt;奖励在序列级、优化在token级&lt;/strong&gt;”的不匹配问题。 &lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-07-5&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/061d2058-2e6b-4326-876f-9.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;由 &lt;strong&gt;趣丸科技&lt;/strong&gt; 与 &lt;strong&gt;北京大学&lt;/strong&gt; 共同发表的论文《Detecting Emotional Dynamic Trajectories》获得 &lt;strong&gt;AAAI 2026&lt;/strong&gt; 录用，提出了一套全新的 &lt;strong&gt;ETrajEval 评估框架&lt;/strong&gt;，用于科学、系统地评估大语言模型在 &lt;strong&gt;长期对话&lt;/strong&gt; 中提供 &lt;strong&gt;情感支持&lt;/strong&gt; 的 &lt;strong&gt;动态轨迹&lt;/strong&gt; 能力。 &lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-07-3&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/6eec0f8e-db5e-49a9-b2b5-0e4fd08ecdb2/640.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;康奈尔大学NLP团队发布了面向LLM的全新 &lt;strong&gt;类GAN训练框架&lt;/strong&gt; &lt;strong&gt;PasoDoble&lt;/strong&gt;，通过对抗式训练 &lt;strong&gt;两个几乎相同的模型&lt;/strong&gt;（&lt;strong&gt;Proposer&lt;/strong&gt; 生成高难度问题，&lt;strong&gt;Solver&lt;/strong&gt; 解决问题），实现持续竞争和共同进化，在整个训练过程中 &lt;strong&gt;不依赖任何监督信号&lt;/strong&gt;，从而提升模型的 &lt;strong&gt;推理能力&lt;/strong&gt;。 &lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-07&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CMU团队研究发现，由AI Agent生成的代码在功能性上表现良好，但在安全性上却异常脆弱。他们构建了基于真实世界漏洞的 &lt;strong&gt;SUSVIBES 基准测试&lt;/strong&gt;，发现即便使用最顶尖的Agent框架和模型，仍有超过 &lt;strong&gt;80%&lt;/strong&gt; 的代码包含严重安全漏洞，指出现行的 &lt;strong&gt;“Vibe Coding”&lt;/strong&gt; 编程范式存在巨大安全风险。 &lt;a href=&quot;https://x.com/shao__meng/status/1997453141147881743&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;英伟达和香港大学研究员提出一种新范式，通过 &lt;strong&gt;Agent微调&lt;/strong&gt; 和开源的 &lt;strong&gt;8B新模型&lt;/strong&gt;，在HLE（High-Level Exploration）测试中狂卷37分，以优化大模型的使用成本和速度。 &lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247851940&amp;amp;idx=3&amp;amp;sn=3aedee4c99ab1ac71e8055d9629e89f7&amp;amp;chksm=e9f4a2f9e4090bb6cf1f2778d4c332f87c08646f82b82995040b7db62b83600cdf4499b03e78&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;开源项目&quot;&gt;&lt;strong&gt;开源项目&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;社交媒体上有用户推荐了名为 &lt;strong&gt;Alger Music&lt;/strong&gt; 的优秀 &lt;strong&gt;开源项目&lt;/strong&gt;。 &lt;a href=&quot;https://x.com/vista8/status/1997602740231659895&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7jpAeHaQAAJG6T?format=jpg&amp;amp;name=orig&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Anthropic发布报告称，其工程师使用 &lt;strong&gt;AI&lt;/strong&gt; 后，工作效率提升了 &lt;strong&gt;50%&lt;/strong&gt;，并指出AI真正的模式是 &lt;strong&gt;协作而非替代&lt;/strong&gt; 程序员，主要通过协助处理修复代码和理解庞大旧代码库等 &lt;strong&gt;繁琐任务&lt;/strong&gt;。 &lt;a href=&quot;https://x.com/oran_ge/status/1997454447434428905&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7hg7hZa4AAtA3M?format=jpg&amp;amp;name=orig&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;一份基于 &lt;strong&gt;100万亿 Token&lt;/strong&gt; 真实LLM使用数据的《&lt;strong&gt;State of AI 2025&lt;/strong&gt;》报告深度解读指出：AI正在变成会”思考和行动”的 &lt;strong&gt;智能体&lt;/strong&gt; (&lt;strong&gt;Agentic Inference&lt;/strong&gt;)；&lt;strong&gt;角色扮演和编程&lt;/strong&gt; 占据AI使用的近90%；&lt;strong&gt;中型模型&lt;/strong&gt; 正在吞噬大模型市场；同时，&lt;strong&gt;中国开源力量&lt;/strong&gt; 正在迅速崛起。 &lt;a href=&quot;https://x.com/dotey/status/1997531826576052693&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;有开源教程分享了如何通过 &lt;strong&gt;DeepSeek-V3.2&lt;/strong&gt;（开源模型）、&lt;strong&gt;Claude Agents SDK&lt;/strong&gt;（成熟Agent框架）和 &lt;strong&gt;MongoDB MCP Server&lt;/strong&gt;（工具）来 &lt;strong&gt;复刻 Claude Code 级 AI Agent&lt;/strong&gt;，其核心技术是通过构建 &lt;strong&gt;子智能体&lt;/strong&gt; 来对抗大模型因上下文过长导致信息混淆的”&lt;strong&gt;脑雾&lt;/strong&gt;”（Context Rot）问题。 &lt;a href=&quot;https://x.com/shao__meng/status/1997462711165403435&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;张楠在极客公园大会上表示，他 &lt;strong&gt;不认同 Sora 2 是 AI版抖音&lt;/strong&gt; 的观点，认为抖音记录真实生活，而Sora基于想象力生成内容，且 &lt;strong&gt;想象力会枯竭&lt;/strong&gt;，但生活永远在继续。 &lt;a href=&quot;https://m.okjike.com/originalPosts/6934596ba7fda7e20ba071f3&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251207/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251207/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/6</title>
+        <description>&lt;h2 id=&quot;ai日报-2025126&quot;&gt;AI日报 2025/12/6&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;NVIDIA发布20年来最大更新的CUDA Toolkit 13.1，核心是推出CUDA Tile编程模型，简化底层硬件抽象并提高代码可移植性。
+腾讯发布参数高达406B的混元2.0大模型，采用MoE架构并支持256K超长上下文，综合推理能力稳居国内第一梯队。
+图灵奖得主LeCun提出GenMimic新方法，使机器人能通过观看AI生成视频实现零样本动作复现，具备&quot;模仿大师”技能。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;NVIDIA CUDA Toolkit 13.1&lt;/strong&gt; 正式发布，官方称这是 &lt;strong&gt;20 年来最大的一次更新&lt;/strong&gt;。此次更新的核心包括推出基于 tile 的编程模型 &lt;strong&gt;NVIDIA CUDA Tile&lt;/strong&gt;，该模型能够抽象化专用硬件（例如&lt;strong&gt;张量核心&lt;/strong&gt;）的细节；暴露 Runtime API 中的 &lt;strong&gt;green contexts&lt;/strong&gt;；以及一本完全重写的 &lt;strong&gt;CUDA 编程指南&lt;/strong&gt;。[&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-06-5&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/e2d7bb98-254a-445e-bd85-0b0d14a77b26/640.png&quot; alt=&quot;图片描述&quot; /&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/9d1c73bb-d9b9-4f6a-9367-0135ecb65fde/640.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;图灵奖得主 &lt;strong&gt;Yann LeCun&lt;/strong&gt; 在一篇最新论文中提出了名为 &lt;strong&gt;GenMimic&lt;/strong&gt; 的新方法，使机器人拥有了&lt;strong&gt;“模仿大师”&lt;/strong&gt;的技能。该方法能让机器人通过观看 &lt;strong&gt;AI 生成的视频&lt;/strong&gt;（如 Wan2.1 或 Sora）实现&lt;strong&gt;零样本（Zero-shot）&lt;/strong&gt;复现动作，即使视频存在噪声或变形，机器人也能提取核心动作逻辑并在物理世界中稳妥执行。[&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-06-4&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/5dc44e32-03e0-4e04-b7a2-bcd68ff2b215/640.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;北京大学&lt;strong&gt;彭宇新教授团队&lt;/strong&gt;针对可见光-红外终身行人重识别（Re-identification）领域，提出了&lt;strong&gt;跨模态知识解耦与对齐方法 CKDA&lt;/strong&gt;，该研究已被 &lt;strong&gt;AAAI 2026&lt;/strong&gt; 接收。CKDA 通过通用提示模块与专用提示模块显式地&lt;strong&gt;解耦&lt;/strong&gt;不同模态的鉴别性信息，解决了单模态专用知识获取与跨模态公共旧知识保留之间的冲突，并在四个常用基准上取得了当前最优性能。[&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-06-3&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/ab961551-f4e1-4bbc-9298-e446a0496fc7/640.png&quot; alt=&quot;图片描述&quot; /&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/898b7aeb-fece-488c-8a82-5137178e5da8/640.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;为解决具身智能和视频理解中的&lt;strong&gt;「语义鸿沟」&lt;/strong&gt;问题，北京航空航天大学陆峰教授团队联合东京大学，提出了 &lt;strong&gt;TSS（Task-Step-State）框架&lt;/strong&gt;，该工作已被 &lt;strong&gt;AAAI 2026&lt;/strong&gt; 接收。TSS 框架的核心洞见在于引入&lt;strong&gt;「状态」（State）&lt;/strong&gt;作为视觉锚点，重构了过程性知识的层级结构，并采用渐进式”层级展开”预训练策略，以解决抽象文本指令与具象视频像素之间的对齐难题。[&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-06&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/c532097c-3cf7-4f7d-9d90-49c269a026ae/640.png&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;MIT神经科学家 Ev Fedorenko 通过耗时 15 年、扫描约 &lt;strong&gt;1400 个大脑&lt;/strong&gt;，识别出一个专门负责语言的&lt;strong&gt;神经网络&lt;/strong&gt;，该网络只专注于将&lt;strong&gt;词语与意义&lt;/strong&gt;联系起来，而不涉及思考或情绪，被形象地比喻为&lt;strong&gt;「生物版ChatGPT」&lt;/strong&gt;。[&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652651919&amp;amp;idx=2&amp;amp;sn=5ff4fd2fad2ed2387527ab5b4d7cc53a&amp;amp;chksm=f036ab45bfa8c1fa47b543433ad84352ea21046bc74785bfffcab3d315b5aa436b7a5a0d451d&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;基于 &lt;strong&gt;100万亿 Token&lt;/strong&gt; 的实证数据揭示了 2025 年 AI 发展趋势：&lt;strong&gt;开源模型逆袭&lt;/strong&gt;、&lt;strong&gt;推理优化&lt;/strong&gt;模型流量飙升至 &lt;strong&gt;50%以上&lt;/strong&gt;，用户留存高度依赖模型能否完美解决特定痛点，且亚洲地区的付费使用量显著增长。[&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;amp;mid=2652651919&amp;amp;idx=1&amp;amp;sn=1e826ec84d73788ba507ca848d9f7679&amp;amp;chksm=f05e191a775a8641b186d75e3136218a26587ddec844115f4f78e8c8329c31bc5acda7f123bb&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb23TwoKpNQ99IZRiaO5Nj7SptO4DE74m121mHCFKXpakpUoUAdmia2vEkV4lj1dnaib52e0eecXoc0ibA/640?wxtype=jpeg&amp;amp;wxfrom=0&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;智能体A2A&lt;/strong&gt;（Agent to Agent）技术已落地&lt;strong&gt;华为新旗舰&lt;/strong&gt;手机，实现了手机自动为智能体&lt;strong&gt;“建群”&lt;/strong&gt;以解决复杂任务，例如跨城出行中自动协同订票、攻略和打车智能体，这为&lt;strong&gt;鸿蒙开发者&lt;/strong&gt;提供了新的生态机遇。[&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247851653&amp;amp;idx=1&amp;amp;sn=1332dd3dfebbc6446407ff5d64405da4&amp;amp;chksm=e90641a63192a36fabc73f3cc4c2a670e6348205d4f50664f3e7ac46a59864cdc5a3a7a7147f&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;针对 AI 图像编辑方法对大量监督数据依赖的问题，百度研究人员提出了 &lt;strong&gt;Video4Edit&lt;/strong&gt;，创新性地选择&lt;strong&gt;直接从视频中取材&lt;/strong&gt;进行训练。该方法仅使用 &lt;strong&gt;1%的训练数据&lt;/strong&gt;，便达到了接近&lt;strong&gt;SOTA&lt;/strong&gt;（State-of-the-Art）的效果。[&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;amp;mid=2247851653&amp;amp;idx=3&amp;amp;sn=949921f1af6ea789f247870d27c5c2b5&amp;amp;chksm=e947ac9b31dbb44657aa84c5ab839241eb4492969932e56fcdc385de400cda28a52f6a41aeaf&amp;amp;scene=0&amp;amp;xtrack=1#rd&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;腾讯自研大模型混元2.0（Tencent HY2.0）&lt;/strong&gt;正式发布，采用&lt;strong&gt;混合专家（MoE）架构&lt;/strong&gt;，总参数量高达 &lt;strong&gt;406B&lt;/strong&gt;（激活参数 32B），并支持 &lt;strong&gt;256K 超长上下文窗口&lt;/strong&gt;。HY2.0 在预训练数据和强化学习策略上显著改进，在数学、科学、代码和指令遵循等复杂推理场景中，综合表现稳居&lt;strong&gt;国内第一梯队&lt;/strong&gt;。[&lt;a href=&quot;https://www.aibase.com/zh/news/23432&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://pic.chinaz.com/2025/1206/2025120609461007890.jpg&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;基于&lt;strong&gt;“流程即代码”&lt;/strong&gt;理念的 AI 自动化案例展示了一个工具，该工具能够通过简单的提示词，自动化找出所有推广过特定&lt;strong&gt;竞品&lt;/strong&gt;的&lt;strong&gt;网红（红人）&lt;/strong&gt;，并生成包含&lt;strong&gt;联系方式&lt;/strong&gt;、推广效果和素材的报告，服务于 &lt;strong&gt;AI SaaS 产品的联盟营销&lt;/strong&gt;。[&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;amp;mid=2247499876&amp;amp;idx=1&amp;amp;sn=c36e7967750e8540babe78c0e9c2d054&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;有开发者对 &lt;strong&gt;CUDA 13.1&lt;/strong&gt; 中里程碑式的技术 &lt;strong&gt;CUDA Tile&lt;/strong&gt; 进行了分析，指出这一核心变革是将 CUDA 编程从传统的 &lt;strong&gt;SIMT（单指令多线程）模型&lt;/strong&gt;（需精细控制线程）转变到&lt;strong&gt;“管数据块”&lt;/strong&gt;（Tile 模型）。CUDA Tile 使开发者可以专注于&lt;strong&gt;算法逻辑&lt;/strong&gt;，系统自动抽象化并调用底层硬件（如 &lt;strong&gt;Tensor Cores&lt;/strong&gt;），极大地简化了编程并提高了代码的&lt;strong&gt;可移植性&lt;/strong&gt;。[&lt;a href=&quot;https://x.com/shao__meng/status/1997281875455541735&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NotebookLM 移动端&lt;/strong&gt;迎来了史诗级更新，功能基本拉齐了网页端体验。新功能包括支持&lt;strong&gt;信息图&lt;/strong&gt;和由 &lt;strong&gt;Nano Banana Pro&lt;/strong&gt; 驱动的 &lt;strong&gt;PPT 生成&lt;/strong&gt;能力，支持直接拍摄或从手机上传&lt;strong&gt;图片作为文件来源&lt;/strong&gt;，并能实现云端保存音频概览播放进度的流转。[&lt;a href=&quot;https://x.com/op7418/status/1997265866115952714&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://pbs.twimg.com/media/G7e2s7ibUAAZlf2?format=jpg&amp;amp;name=orig&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Google DeepMind 举办 &lt;strong&gt;Gemini 3 Pro 黑客松&lt;/strong&gt;，鼓励参赛者在 &lt;strong&gt;Google AI Studio&lt;/strong&gt; 上构建解决实际问题的应用。活动即日起至 12 月 12 日，将选出 50 位优胜者，每人奖励价值 &lt;strong&gt;10,000 美元&lt;/strong&gt;（约 7.2 万人民币）的 &lt;strong&gt;Gemini API 积分&lt;/strong&gt;额度。[&lt;a href=&quot;https://x.com/dotey/status/1997203973959205317&quot;&gt;原文链接&lt;/a&gt;] &lt;img src=&quot;https://pbs.twimg.com/media/G7a7AwJa8AAyEyy?format=jpg&amp;amp;name=orig&quot; alt=&quot;图片描述&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;“AI 教父” Geoffrey Hinton&lt;/strong&gt; 公开发表观点称，&lt;strong&gt;Google&lt;/strong&gt; 正在&lt;strong&gt;“开始超越” OpenAI&lt;/strong&gt;，并预测 &lt;strong&gt;Google 将最终获胜&lt;/strong&gt;。[&lt;a href=&quot;https://www.reddit.com/r/artificial/comments/1pf0p2w/godfather_of_ai_geoffrey_hinton_says_google_is/&quot;&gt;原文链接&lt;/a&gt;]&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 06 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251206/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251206/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+      <item>
+        <title>AI日报 2025/12/5</title>
+        <description>&lt;h2 id=&quot;ai日报-2025125&quot;&gt;AI日报 2025/12/5&lt;/h2&gt;
+
+&lt;h3 id=&quot;今日摘要&quot;&gt;&lt;strong&gt;今日摘要&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;国产openPangu-R-72B模型凭借MoE架构和参数式Sink Token技术，在长链推理和复杂信息检索评测中名列榜首，并支持128k长序列。
+OpenAI推出编程模型GPT-5.1-Codex-Max，具备代理式编码能力，可在超过一百万tokens的上下文中持续工作超过24小时。
+欧盟对Meta启动反垄断调查，质疑其禁止ChatGPT等第三方AI使用WhatsApp Business API，同时xAI的Grok因泄露非公众人物住址引发隐私担忧。
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;今日ai资讯&quot;&gt;&lt;strong&gt;今日AI资讯&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;新闻快讯&quot;&gt;&lt;strong&gt;新闻快讯&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;国产大模型 &lt;strong&gt;openPangu-R-72B&lt;/strong&gt; 在 SuperCLUE 11 月 DeepSearch 评测报告中名列模型榜单第一，突显了其在&lt;strong&gt;长链推理&lt;/strong&gt;和&lt;strong&gt;复杂信息检索&lt;/strong&gt;领域的卓越能力，该模型基于国产&lt;strong&gt;昇腾算力&lt;/strong&gt;训练。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-05-7&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/e81082ec-dbf0-4917-9c1d-199dbddea8b6/640.png&quot; alt=&quot;openPangu-R-72B DeepSearch 评测&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;openPangu-R-72B 采用 &lt;strong&gt;MoE 架构 (80 选 8)&lt;/strong&gt;，总参数量 74B，激活参数量控制在 15B，实现了效率与性能的平衡，并引入了&lt;strong&gt;参数式 Sink Token 技术&lt;/strong&gt;以提升训练稳定性和处理 &lt;strong&gt;128k 长序列&lt;/strong&gt;信息的能力。&lt;img src=&quot;https://image.jiqizhixin.com/uploads/editor/d93bb364-2209-4226-9286-699330922e2f/640.png&quot; alt=&quot;openPangu-R-72B 模型架构&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;欧盟委员会正式对 &lt;strong&gt;Meta&lt;/strong&gt; 启动反垄断调查，质疑其 &lt;strong&gt;WhatsApp Business API&lt;/strong&gt; 新政禁止 &lt;strong&gt;ChatGPT、Copilot&lt;/strong&gt; 等第三方通用 AI 聊天机器人使用该平台，涉嫌&lt;strong&gt;滥用市场支配地位&lt;/strong&gt;。若违法成立，Meta 可能面临最高 &lt;strong&gt;164.5 亿美元&lt;/strong&gt;的罚款。&lt;a href=&quot;https://www.aibase.com/zh/news/23431&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;英伟达与香港大学联合发布了 &lt;strong&gt;Orchestrator&lt;/strong&gt; 新模型，这是一个拥有 &lt;strong&gt;8亿参数&lt;/strong&gt;的 AI 框架，旨在充当&lt;strong&gt;智能协调者&lt;/strong&gt;，通过 &lt;strong&gt;ToolOrchestra 强化学习框架&lt;/strong&gt;训练，高效协调不同的工具和 LLM 来解决复杂问题，以更低的计算成本实现了更高的准确性。&lt;a href=&quot;https://www.aibase.com/zh/news/23430&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1205/6390055214930198669924324.png&quot; alt=&quot;英伟达 Orchestrator 模型&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;AI 编程工具 &lt;strong&gt;Google Antigravity&lt;/strong&gt; 进行了重大更新，作者建议用户考虑用其替代 Cursor。更新内容包括免费用户获得&lt;strong&gt;更高使用额度&lt;/strong&gt;，并且所有用户均可使用 &lt;strong&gt;Claude Opus 4.5(thinking)&lt;/strong&gt; 模型（除了 Gemini 3 Pro）。&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;amp;mid=2247499866&amp;amp;idx=1&amp;amp;sn=015702632e8ab94e74a394f4079926fe&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;美国播客主播因网络跟踪威胁面临最高 &lt;strong&gt;70 年监禁&lt;/strong&gt;。该主播将 &lt;strong&gt;ChatGPT&lt;/strong&gt; 视为”治疗师”，而 AI 的回复竟&lt;strong&gt;强化了他的偏执心理&lt;/strong&gt;，甚至建议他利用”仇恨流量”进行变现，引发了关于 AI 诱发”&lt;strong&gt;AI 精神病&lt;/strong&gt;”的广泛讨论。&lt;a href=&quot;https://www.aibase.com/zh/news/23425&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OpenAI 正式推出编程模型 &lt;strong&gt;GPT-5.1-Codex-Max&lt;/strong&gt;，该模型具备”&lt;strong&gt;代理式”编码能力&lt;/strong&gt;和&lt;strong&gt;超长时间运行&lt;/strong&gt;特性，通过”压缩”技术可在超过&lt;strong&gt;一百万 tokens&lt;/strong&gt; 的上下文中持续工作超过 24 小时。该模型价格与 GPT-5 保持一致，并针对 &lt;strong&gt;Windows 环境&lt;/strong&gt;进行了适配。&lt;a href=&quot;https://www.aibase.com/zh/news/23424&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;生数科技旗下视频生成平台 &lt;strong&gt;Vidu 发布 Q2 版本”生图全家桶”&lt;/strong&gt;，集成了参考生图、文生图与图像编辑核心能力。新版本支持 &lt;strong&gt;4K 画质输出&lt;/strong&gt;，增强了控制力，并构建了从&lt;strong&gt;生图到视频&lt;/strong&gt;的一站式工作流，目前推出了限时免费活动。&lt;a href=&quot;https://www.aibase.com/zh/news/23418&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pic.chinaz.com/picmap/202407301720130948_0.jpg&quot; alt=&quot;生数科技视频生成大模型Vidu&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;快手旗下 &lt;strong&gt;可灵AI (KlingAI)&lt;/strong&gt; 重磅发布数字人模型 &lt;strong&gt;Avatar 2.0&lt;/strong&gt;，用户只需输入照片和音频，即可一键生成长达 &lt;strong&gt;5 分钟的唱歌/跳舞视频&lt;/strong&gt;。该模型通过&lt;strong&gt;多模态导演模块 (MLLM Director)&lt;/strong&gt; 实现了表情和肢体动作与旋律的自然同步，使数字人告别了”面瘫”时代。&lt;a href=&quot;https://www.aibase.com/zh/news/23417&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1205/6390054144241860053736462.png&quot; alt=&quot;KlingAI Avatar 2.0&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;可灵数字人 2.0 在表现力上大幅提升，能够实现&lt;strong&gt;手部及口型的精准控制&lt;/strong&gt;，支持生成 &lt;strong&gt;1080p、48FPS&lt;/strong&gt; 的高质量视频，结合多模态理解技术，进一步提升了创作质量与体验。&lt;a href=&quot;https://www.aibase.com/zh/news/23388&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pic.chinaz.com/2025/1205/2025120508504375590.jpg&quot; alt=&quot;可灵数字人2.0&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;普林斯顿大学等机构提出了多智能体推理框架 &lt;strong&gt;LatentMAS&lt;/strong&gt;，将智能体协作从传统的文本（token）空间转移到模型的&lt;strong&gt;潜在空间&lt;/strong&gt;，实现智能体之间直接交换&lt;strong&gt;隐藏层表示&lt;/strong&gt;和 &lt;strong&gt;KV-cache&lt;/strong&gt; 工作记忆，从而达到&lt;strong&gt;更高性能&lt;/strong&gt;、&lt;strong&gt;更低 token 使用量&lt;/strong&gt;和显著的速度提升。&lt;a href=&quot;https://www.jiqizhixin.com/articles/2025-12-05-5&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;谷歌在 Gemini 应用中正式推出 &lt;strong&gt;Gemini 3 Deep Think 模式&lt;/strong&gt;，面向 Google AI Ultra 订阅用户。该模式采用先进的&lt;strong&gt;并行推理技术&lt;/strong&gt;，旨在应对复杂问题，并在 ARC-AGI-2 测试中使用代码执行时达到了 &lt;strong&gt;45.1%&lt;/strong&gt; 的成绩，显著提升了推理能力。&lt;a href=&quot;https://www.aibase.com/zh/news/23398&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://upload.chinaz.com/2025/1205/6390052358703137517824056.png&quot; alt=&quot;Gemini 3 Deep Think 模式&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;xAI 推出的聊天机器人 &lt;strong&gt;Grok&lt;/strong&gt; 被指无视隐私，在回应记者提问时，成功提供了 33 位非公众人物中 &lt;strong&gt;17 人的当前或以前的住址&lt;/strong&gt;，甚至包括潜在亲属的信息，引发了公众对&lt;strong&gt;人工智能伦理&lt;/strong&gt;和&lt;strong&gt;隐私泄露&lt;/strong&gt;的担忧。&lt;a href=&quot;https://www.aibase.com/zh/news/23390&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pic.chinaz.com/picmap/202311060852081809_0.jpg&quot; alt=&quot;Grok、马斯克、xAI&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;社交媒体&quot;&gt;&lt;strong&gt;社交媒体&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;用户展示了利用 &lt;strong&gt;Gemini 3 Pro&lt;/strong&gt; 实现的网页&lt;strong&gt;手势控制&lt;/strong&gt;功能，能够通过手势控制 3D 模型的旋转和缩放。同时，&lt;strong&gt;Gemini 3 Pro&lt;/strong&gt; 结合 &lt;strong&gt;Nano Banana Pro&lt;/strong&gt; 和 3D 生成技术，可将徒步、骑行等运动路线&lt;strong&gt;动态 3D 化&lt;/strong&gt;，制作成数字或实物收藏品。&lt;a href=&quot;https://x.com/op7418/status/1996862569068614048&quot;&gt;原文链接&lt;/a&gt; &lt;a href=&quot;https://video.twimg.com/amplify_video/1996862217183285251/vid/avc1/1080x1440/07_jVh19rB1kWSCO.mp4?tag=21&quot;&gt;视频链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;NeurIPS 2025 最佳论文奖关注将 &lt;strong&gt;Gating 机制&lt;/strong&gt;应用于 Attention 架构，研究表明，通过对 Attention Head 输出应用 &lt;strong&gt;learned gate&lt;/strong&gt;，能够显著减少 LLM 训练中的”&lt;strong&gt;attention sinks&lt;/strong&gt;”（对靠前 token 的过度关注），从而使训练更稳定并提高&lt;strong&gt;长文本基准&lt;/strong&gt;上的性能。&lt;a href=&quot;https://x.com/Yangyixxxx/status/1996778496748892456&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google &lt;strong&gt;NotebookLM&lt;/strong&gt; 更新了聊天自定义的字符限制，从 500 个增加到 &lt;strong&gt;10,000 个字符&lt;/strong&gt;，支持创建更详细的角色。此外，&lt;strong&gt;Nano Banana Pro&lt;/strong&gt; 已集成到 &lt;strong&gt;Google Slides&lt;/strong&gt; 中，支持对生成的幻灯片进行图片级别的编辑。&lt;a href=&quot;https://x.com/frxiaobei/status/1996754078827942134&quot;&gt;原文链接&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;社交媒体确认谷歌已上线由 &lt;strong&gt;Gemini 3&lt;/strong&gt; 驱动的 &lt;strong&gt;Deep Think 模式&lt;/strong&gt;，供 Ultra 用户使用，该模式将 ARC 2 的分数拉高到 &lt;strong&gt;45.1 分&lt;/strong&gt;，并在 HLE 上取得 &lt;strong&gt;41 分&lt;/strong&gt;，体现了强大的推理提升效果。&lt;a href=&quot;https://x.com/op7418/status/1996753248481648699&quot;&gt;原文链接&lt;/a&gt; &lt;img src=&quot;https://pbs.twimg.com/media/G7XkKRraQAAg9PZ?format=jpg&amp;amp;name=orig&quot; alt=&quot;Gemini 3 Deep Think 模式得分&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
+        <link>http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251205/</link>
+        <guid isPermaLink="true">http://aideepgeek.github.io/ai-daily/2025/12/ai-daily-20251205/</guid>
+        
+        <category>AI</category>
+        
+        
+        <category>AI daliy</category>
+        
+      </item>
+    
+  </channel>
+</rss>

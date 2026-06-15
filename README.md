@@ -1,2 +1,4 @@
 # aideepgeek.github.io
-website
+
+## Projects
+[ai-daily](https://aideepgeek.github.io/ai-daily/)
