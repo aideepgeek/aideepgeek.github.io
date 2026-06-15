@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/favicon.ico">
+
+<title>AI日报 2025/12/6 | DeepGeekAI</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>AI日报 2025/12/6 | DeepGeekAI</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="AI日报 2025/12/6" />
+<meta name="author" content="DeepGeekAI" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="NVIDIA发布20年来最大更新的CUDA Toolkit 13.1，核心是推出CUDA Tile编程模型，简化底层硬件抽象并提高代码可移植性。 腾讯发布参数高达406B的混元2.0大模型，采用MoE架构并支持256K超长上下文，综合推理能力稳居国内第一梯队。 图灵奖得主LeCun提出GenMimic新方法，使机器人能通过观看AI生成视频实现零样本动作复现，具备“模仿大师”技能。" />
+<meta property="og:description" content="NVIDIA发布20年来最大更新的CUDA Toolkit 13.1，核心是推出CUDA Tile编程模型，简化底层硬件抽象并提高代码可移植性。 腾讯发布参数高达406B的混元2.0大模型，采用MoE架构并支持256K超长上下文，综合推理能力稳居国内第一梯队。 图灵奖得主LeCun提出GenMimic新方法，使机器人能通过观看AI生成视频实现零样本动作复现，具备“模仿大师”技能。" />
+<link rel="canonical" href="http://aideepgeek.github.io/2025/12/ai-daily-20251206/" />
+<meta property="og:url" content="http://aideepgeek.github.io/2025/12/ai-daily-20251206/" />
+<meta property="og:site_name" content="DeepGeekAI" />
+<meta property="og:image" content="https://picsum.photos/seed/25/1200/900" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-12-06T00:00:00+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://picsum.photos/seed/25/1200/900" />
+<meta property="twitter:title" content="AI日报 2025/12/6" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"DeepGeekAI"},"dateModified":"2025-12-06T00:00:00+08:00","datePublished":"2025-12-06T00:00:00+08:00","description":"NVIDIA发布20年来最大更新的CUDA Toolkit 13.1，核心是推出CUDA Tile编程模型，简化底层硬件抽象并提高代码可移植性。 腾讯发布参数高达406B的混元2.0大模型，采用MoE架构并支持256K超长上下文，综合推理能力稳居国内第一梯队。 图灵奖得主LeCun提出GenMimic新方法，使机器人能通过观看AI生成视频实现零样本动作复现，具备“模仿大师”技能。","headline":"AI日报 2025/12/6","image":"https://picsum.photos/seed/25/1200/900","mainEntityOfPage":{"@type":"WebPage","@id":"http://aideepgeek.github.io/2025/12/ai-daily-20251206/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://aideepgeek.github.io/assets/images/logo.png"},"name":"DeepGeekAI"},"url":"http://aideepgeek.github.io/2025/12/ai-daily-20251206/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="DeepGeekAI">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/index.html">Home</a>
+                </li>
+
+                <a class="nav-link" href="/categories.html">Category</a>
+                </li>
+
+                <a class="nav-link" href="/tags.html">Tags</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                </li> -->
+
+                <!-- <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script> -->
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle">DeepGeekAI</h1>
+    <p class="lead">
+        Program Hard, Play AI Harder, Live Crazy!
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <!-- <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://x.com/intent/tweet?text=AI日报 2025/12/6&url=http://aideepgeek.github.io/2025/12/ai-daily-20251206/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://aideepgeek.github.io/2025/12/ai-daily-20251206/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://aideepgeek.github.io/2025/12/ai-daily-20251206/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div> -->
+
+        <!-- Post -->
+        <!--  -->
+
+        <div class="col-md-12 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                <!-- 
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href=""></a><a target="_blank" href="" class="btn follow">Follow</a>
+                        <span class="author-description"></span>
+                    </div>
+                </div>
+                 -->
+
+                <!-- Post Title -->
+                <h1 class="posttitle">AI日报 2025/12/6</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="https://picsum.photos/seed/25/1200/900" alt="AI日报 2025/12/6">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <h2 id="ai日报-2025126">AI日报 2025/12/6</h2>
+
+<h3 id="今日摘要"><strong>今日摘要</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>NVIDIA发布20年来最大更新的CUDA Toolkit 13.1，核心是推出CUDA Tile编程模型，简化底层硬件抽象并提高代码可移植性。
+腾讯发布参数高达406B的混元2.0大模型，采用MoE架构并支持256K超长上下文，综合推理能力稳居国内第一梯队。
+图灵奖得主LeCun提出GenMimic新方法，使机器人能通过观看AI生成视频实现零样本动作复现，具备"模仿大师”技能。
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="今日ai资讯"><strong>今日AI资讯</strong></h3>
+
+<h4 id="新闻快讯"><strong>新闻快讯</strong></h4>
+
+<ol>
+  <li><strong>NVIDIA CUDA Toolkit 13.1</strong> 正式发布，官方称这是 <strong>20 年来最大的一次更新</strong>。此次更新的核心包括推出基于 tile 的编程模型 <strong>NVIDIA CUDA Tile</strong>，该模型能够抽象化专用硬件（例如<strong>张量核心</strong>）的细节；暴露 Runtime API 中的 <strong>green contexts</strong>；以及一本完全重写的 <strong>CUDA 编程指南</strong>。[<a href="https://www.jiqizhixin.com/articles/2025-12-06-5">原文链接</a>] <img src="https://image.jiqizhixin.com/uploads/editor/e2d7bb98-254a-445e-bd85-0b0d14a77b26/640.png" alt="图片描述" /> <img src="https://image.jiqizhixin.com/uploads/editor/9d1c73bb-d9b9-4f6a-9367-0135ecb65fde/640.png" alt="图片描述" /></li>
+  <li>图灵奖得主 <strong>Yann LeCun</strong> 在一篇最新论文中提出了名为 <strong>GenMimic</strong> 的新方法，使机器人拥有了<strong>“模仿大师”</strong>的技能。该方法能让机器人通过观看 <strong>AI 生成的视频</strong>（如 Wan2.1 或 Sora）实现<strong>零样本（Zero-shot）</strong>复现动作，即使视频存在噪声或变形，机器人也能提取核心动作逻辑并在物理世界中稳妥执行。[<a href="https://www.jiqizhixin.com/articles/2025-12-06-4">原文链接</a>] <img src="https://image.jiqizhixin.com/uploads/editor/5dc44e32-03e0-4e04-b7a2-bcd68ff2b215/640.png" alt="图片描述" /></li>
+  <li>北京大学<strong>彭宇新教授团队</strong>针对可见光-红外终身行人重识别（Re-identification）领域，提出了<strong>跨模态知识解耦与对齐方法 CKDA</strong>，该研究已被 <strong>AAAI 2026</strong> 接收。CKDA 通过通用提示模块与专用提示模块显式地<strong>解耦</strong>不同模态的鉴别性信息，解决了单模态专用知识获取与跨模态公共旧知识保留之间的冲突，并在四个常用基准上取得了当前最优性能。[<a href="https://www.jiqizhixin.com/articles/2025-12-06-3">原文链接</a>] <img src="https://image.jiqizhixin.com/uploads/editor/ab961551-f4e1-4bbc-9298-e446a0496fc7/640.png" alt="图片描述" /> <img src="https://image.jiqizhixin.com/uploads/editor/898b7aeb-fece-488c-8a82-5137178e5da8/640.png" alt="图片描述" /></li>
+  <li>为解决具身智能和视频理解中的<strong>「语义鸿沟」</strong>问题，北京航空航天大学陆峰教授团队联合东京大学，提出了 <strong>TSS（Task-Step-State）框架</strong>，该工作已被 <strong>AAAI 2026</strong> 接收。TSS 框架的核心洞见在于引入<strong>「状态」（State）</strong>作为视觉锚点，重构了过程性知识的层级结构，并采用渐进式”层级展开”预训练策略，以解决抽象文本指令与具象视频像素之间的对齐难题。[<a href="https://www.jiqizhixin.com/articles/2025-12-06">原文链接</a>] <img src="https://image.jiqizhixin.com/uploads/editor/c532097c-3cf7-4f7d-9d90-49c269a026ae/640.png" alt="图片描述" /></li>
+  <li>MIT神经科学家 Ev Fedorenko 通过耗时 15 年、扫描约 <strong>1400 个大脑</strong>，识别出一个专门负责语言的<strong>神经网络</strong>，该网络只专注于将<strong>词语与意义</strong>联系起来，而不涉及思考或情绪，被形象地比喻为<strong>「生物版ChatGPT」</strong>。[<a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652651919&amp;idx=2&amp;sn=5ff4fd2fad2ed2387527ab5b4d7cc53a&amp;chksm=f036ab45bfa8c1fa47b543433ad84352ea21046bc74785bfffcab3d315b5aa436b7a5a0d451d&amp;scene=0&amp;xtrack=1#rd">原文链接</a>]</li>
+  <li>基于 <strong>100万亿 Token</strong> 的实证数据揭示了 2025 年 AI 发展趋势：<strong>开源模型逆袭</strong>、<strong>推理优化</strong>模型流量飙升至 <strong>50%以上</strong>，用户留存高度依赖模型能否完美解决特定痛点，且亚洲地区的付费使用量显著增长。[<a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652651919&amp;idx=1&amp;sn=1e826ec84d73788ba507ca848d9f7679&amp;chksm=f05e191a775a8641b186d75e3136218a26587ddec844115f4f78e8c8329c31bc5acda7f123bb&amp;scene=0&amp;xtrack=1#rd">原文链接</a>] <img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb23TwoKpNQ99IZRiaO5Nj7SptO4DE74m121mHCFKXpakpUoUAdmia2vEkV4lj1dnaib52e0eecXoc0ibA/640?wxtype=jpeg&amp;wxfrom=0" alt="图片描述" /></li>
+  <li><strong>智能体A2A</strong>（Agent to Agent）技术已落地<strong>华为新旗舰</strong>手机，实现了手机自动为智能体<strong>“建群”</strong>以解决复杂任务，例如跨城出行中自动协同订票、攻略和打车智能体，这为<strong>鸿蒙开发者</strong>提供了新的生态机遇。[<a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247851653&amp;idx=1&amp;sn=1332dd3dfebbc6446407ff5d64405da4&amp;chksm=e90641a63192a36fabc73f3cc4c2a670e6348205d4f50664f3e7ac46a59864cdc5a3a7a7147f&amp;scene=0&amp;xtrack=1#rd">原文链接</a>]</li>
+  <li>针对 AI 图像编辑方法对大量监督数据依赖的问题，百度研究人员提出了 <strong>Video4Edit</strong>，创新性地选择<strong>直接从视频中取材</strong>进行训练。该方法仅使用 <strong>1%的训练数据</strong>，便达到了接近<strong>SOTA</strong>（State-of-the-Art）的效果。[<a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247851653&amp;idx=3&amp;sn=949921f1af6ea789f247870d27c5c2b5&amp;chksm=e947ac9b31dbb44657aa84c5ab839241eb4492969932e56fcdc385de400cda28a52f6a41aeaf&amp;scene=0&amp;xtrack=1#rd">原文链接</a>]</li>
+  <li><strong>腾讯自研大模型混元2.0（Tencent HY2.0）</strong>正式发布，采用<strong>混合专家（MoE）架构</strong>，总参数量高达 <strong>406B</strong>（激活参数 32B），并支持 <strong>256K 超长上下文窗口</strong>。HY2.0 在预训练数据和强化学习策略上显著改进，在数学、科学、代码和指令遵循等复杂推理场景中，综合表现稳居<strong>国内第一梯队</strong>。[<a href="https://www.aibase.com/zh/news/23432">原文链接</a>] <img src="https://pic.chinaz.com/2025/1206/2025120609461007890.jpg" alt="图片描述" /></li>
+  <li>基于<strong>“流程即代码”</strong>理念的 AI 自动化案例展示了一个工具，该工具能够通过简单的提示词，自动化找出所有推广过特定<strong>竞品</strong>的<strong>网红（红人）</strong>，并生成包含<strong>联系方式</strong>、推广效果和素材的报告，服务于 <strong>AI SaaS 产品的联盟营销</strong>。[<a href="https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247499876&amp;idx=1&amp;sn=c36e7967750e8540babe78c0e9c2d054">原文链接</a>]</li>
+</ol>
+
+<h4 id="社交媒体"><strong>社交媒体</strong></h4>
+
+<ol>
+  <li>有开发者对 <strong>CUDA 13.1</strong> 中里程碑式的技术 <strong>CUDA Tile</strong> 进行了分析，指出这一核心变革是将 CUDA 编程从传统的 <strong>SIMT（单指令多线程）模型</strong>（需精细控制线程）转变到<strong>“管数据块”</strong>（Tile 模型）。CUDA Tile 使开发者可以专注于<strong>算法逻辑</strong>，系统自动抽象化并调用底层硬件（如 <strong>Tensor Cores</strong>），极大地简化了编程并提高了代码的<strong>可移植性</strong>。[<a href="https://x.com/shao__meng/status/1997281875455541735">原文链接</a>]</li>
+  <li><strong>NotebookLM 移动端</strong>迎来了史诗级更新，功能基本拉齐了网页端体验。新功能包括支持<strong>信息图</strong>和由 <strong>Nano Banana Pro</strong> 驱动的 <strong>PPT 生成</strong>能力，支持直接拍摄或从手机上传<strong>图片作为文件来源</strong>，并能实现云端保存音频概览播放进度的流转。[<a href="https://x.com/op7418/status/1997265866115952714">原文链接</a>] <img src="https://pbs.twimg.com/media/G7e2s7ibUAAZlf2?format=jpg&amp;name=orig" alt="图片描述" /></li>
+  <li>Google DeepMind 举办 <strong>Gemini 3 Pro 黑客松</strong>，鼓励参赛者在 <strong>Google AI Studio</strong> 上构建解决实际问题的应用。活动即日起至 12 月 12 日，将选出 50 位优胜者，每人奖励价值 <strong>10,000 美元</strong>（约 7.2 万人民币）的 <strong>Gemini API 积分</strong>额度。[<a href="https://x.com/dotey/status/1997203973959205317">原文链接</a>] <img src="https://pbs.twimg.com/media/G7a7AwJa8AAyEyy?format=jpg&amp;name=orig" alt="图片描述" /></li>
+  <li><strong>“AI 教父” Geoffrey Hinton</strong> 公开发表观点称，<strong>Google</strong> 正在<strong>“开始超越” OpenAI</strong>，并预测 <strong>Google 将最终获胜</strong>。[<a href="https://www.reddit.com/r/artificial/comments/1pf0p2w/godfather_of_ai_geoffrey_hinton_says_google_is/">原文链接</a>]</li>
+</ol>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2025-12-06">06 Dec 2025</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#AI-daliy">AI daliy</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#AI">#AI</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//2025/12/ai-daily-20251205/"> &laquo; AI日报 2025/12/5</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="//2025/12/ai-daily-20251207/">AI日报 2025/12/7 &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-12">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ibillxia'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!-- <div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/logo.png" alt="DeepGeekAI"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#AI-daliy">AI daliy (22)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#News">News (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#AI">AI (2)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#AI-Info-Hub">AI-Info-Hub (1)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-left text-lg-left">
+                Copyright © 2026 DeepGeekAI 
+            </div>
+            <div class="col-md-6 col-sm-6 text-right text-lg-right">    
+                Theme by <a target="_blank" href="https://github.com/codebygina/mediumish-theme-jekyll">Mediumish</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//ibillxia.disqus.com/count.js"></script>
+
+
+</body>
+</html>

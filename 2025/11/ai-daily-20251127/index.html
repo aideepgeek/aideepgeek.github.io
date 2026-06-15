@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/favicon.ico">
+
+<title>AI日报 2025/11/27 | DeepGeekAI</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>AI日报 2025/11/27 | DeepGeekAI</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="AI日报 2025/11/27" />
+<meta name="author" content="DeepGeekAI" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="月之暗面强化学习方法使LLM训练速度暴涨97%，长尾延迟狂降93%。华为诺亚开源ROOT优化器以提升大模型训练的鲁棒性与收敛速度。 谷歌AlphaFold已预测2亿蛋白质结构，赋能生物科学研究。北大和UCSD推出了视频理解框架，以解决Video-LLM的细节感知问题。 Deepseek开源685B数学模型DeepSeek-Math-V2，能力达IMO金牌水平。夸克AI浏览器则升级千问助手实现操作系统级全局唤起。" />
+<meta property="og:description" content="月之暗面强化学习方法使LLM训练速度暴涨97%，长尾延迟狂降93%。华为诺亚开源ROOT优化器以提升大模型训练的鲁棒性与收敛速度。 谷歌AlphaFold已预测2亿蛋白质结构，赋能生物科学研究。北大和UCSD推出了视频理解框架，以解决Video-LLM的细节感知问题。 Deepseek开源685B数学模型DeepSeek-Math-V2，能力达IMO金牌水平。夸克AI浏览器则升级千问助手实现操作系统级全局唤起。" />
+<link rel="canonical" href="http://aideepgeek.github.io/2025/11/ai-daily-20251127/" />
+<meta property="og:url" content="http://aideepgeek.github.io/2025/11/ai-daily-20251127/" />
+<meta property="og:site_name" content="DeepGeekAI" />
+<meta property="og:image" content="https://picsum.photos/seed/16/1200/900" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-11-27T00:00:00+08:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://picsum.photos/seed/16/1200/900" />
+<meta property="twitter:title" content="AI日报 2025/11/27" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"DeepGeekAI"},"dateModified":"2025-11-27T00:00:00+08:00","datePublished":"2025-11-27T00:00:00+08:00","description":"月之暗面强化学习方法使LLM训练速度暴涨97%，长尾延迟狂降93%。华为诺亚开源ROOT优化器以提升大模型训练的鲁棒性与收敛速度。 谷歌AlphaFold已预测2亿蛋白质结构，赋能生物科学研究。北大和UCSD推出了视频理解框架，以解决Video-LLM的细节感知问题。 Deepseek开源685B数学模型DeepSeek-Math-V2，能力达IMO金牌水平。夸克AI浏览器则升级千问助手实现操作系统级全局唤起。","headline":"AI日报 2025/11/27","image":"https://picsum.photos/seed/16/1200/900","mainEntityOfPage":{"@type":"WebPage","@id":"http://aideepgeek.github.io/2025/11/ai-daily-20251127/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://aideepgeek.github.io/assets/images/logo.png"},"name":"DeepGeekAI"},"url":"http://aideepgeek.github.io/2025/11/ai-daily-20251127/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="DeepGeekAI">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/index.html">Home</a>
+                </li>
+
+                <a class="nav-link" href="/categories.html">Category</a>
+                </li>
+
+                <a class="nav-link" href="/tags.html">Tags</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                </li>
+
+                <li class="nav-item">
+                <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                </li> -->
+
+                <!-- <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script> -->
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle">DeepGeekAI</h1>
+    <p class="lead">
+        Program Hard, Play AI Harder, Live Crazy!
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <!-- <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://x.com/intent/tweet?text=AI日报 2025/11/27&url=http://aideepgeek.github.io/2025/11/ai-daily-20251127/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://aideepgeek.github.io/2025/11/ai-daily-20251127/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://aideepgeek.github.io/2025/11/ai-daily-20251127/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+    <div class="sep">
+    </div>
+    <ul>
+        <li>
+        <a class="small smoothscroll" href="#disqus_thread"></a>
+        </li>
+    </ul>
+    
+</div>
+
+        </div> -->
+
+        <!-- Post -->
+        <!--  -->
+
+        <div class="col-md-12 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                <!-- 
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href=""></a><a target="_blank" href="" class="btn follow">Follow</a>
+                        <span class="author-description"></span>
+                    </div>
+                </div>
+                 -->
+
+                <!-- Post Title -->
+                <h1 class="posttitle">AI日报 2025/11/27</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="https://picsum.photos/seed/16/1200/900" alt="AI日报 2025/11/27">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <h2 id="ai日报-20251127">AI日报 2025/11/27</h2>
+
+<h3 id="今日摘要"><strong>今日摘要</strong></h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>月之暗面强化学习方法使LLM训练速度暴涨97%，长尾延迟狂降93%。华为诺亚开源ROOT优化器以提升大模型训练的鲁棒性与收敛速度。
+谷歌AlphaFold已预测2亿蛋白质结构，赋能生物科学研究。北大和UCSD推出了视频理解框架，以解决Video-LLM的细节感知问题。
+Deepseek开源685B数学模型DeepSeek-Math-V2，能力达IMO金牌水平。夸克AI浏览器则升级千问助手实现操作系统级全局唤起。
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="今日ai资讯"><strong>今日AI资讯</strong></h3>
+
+<h4 id="新闻快讯"><strong>新闻快讯</strong></h4>
+
+<ol>
+  <li>月之暗面发布了其<strong>强化学习（RL）训练加速方法</strong>，成功将训练速度<strong>暴涨97%</strong>，并使长尾延迟<strong>狂降93%</strong>，有效解决了大型语言模型（LLM）在Rollout阶段速度减慢的挑战。<br />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtAibrPgt29FzibcHp4xcZCLGRT3CDpdKtOsb90ljZcACtsGNBB9pOnz3VvT4M3Q2VypwcHgZSZ3f1iaw/300?wxtype=jpeg&amp;wxfrom=0" alt="图片" /> 
+<a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247847175&amp;idx=2&amp;sn=29c9e13284352fdc91f5322675daae01&amp;chksm=e94f3691f92228573b30777e1bdbb5d0aa61574ec6be732f8fd74092adce99d8839187ecd416&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>针对现有Video-LLM在处理复杂视频信息时精度受损的问题，北大和UCSD团队推出了一个新的<strong>视频理解框架</strong>，该框架通过引入 <strong>Object Tokens</strong> 来重塑模型的细节感知与指代理解能力，该成果已被ICCV 2025以高分接收。
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtAibrPgt29FzibcHp4xcZCLGRq5sBsTsKH2VgiaTgQ4rGe8UwMFfTLnozrwj7W11n4kFYSpHJntCcKHQ/300?wxtype=jpeg&amp;wxfrom=0" alt="图片" /><br />
+<a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247847175&amp;idx=3&amp;sn=999311df6ea50c76dd7405a312fa1f25&amp;chksm=e9bb67e642af3854579439e42f9d6691cb6dfe2024dae12ad712cdb3cdb3c0ab981e2f6fb0426&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>华为诺亚方舟实验室开源了 <strong>ROOT (Robust Orthogonalized OpTimizer)</strong> 优化器，旨在解决大模型训练中优化器鲁棒性与收敛速度的两难问题，它集成了 <strong>AdaNewton</strong> 和<strong>软阈值去噪</strong>两大创新，试图提供更快速、更稳定的训练范式。<br />
+ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651003999&amp;idx=1&amp;sn=8d41cb907ba63a1d2141bf6ad119dd17">原文链接</a></li>
+  <li>谷歌的 <strong>AlphaFold</strong> 模型彻底改变了<strong>蛋白质结构预测</strong>领域，解决了长达50年的难题。该模型现已预测了<strong>2亿蛋白质结构</strong>，并被330万研究者广泛使用，证明了AI在生物科学中的巨大赋能价值。<br />
+<img src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb0UGaiciaAGMAs69EFn4rxGAdPaAvyxhORY55ic1mKwf6Hf7lxomlApsKbxTbLqic5P3I7UhYarDw00xg/300?wxtype=jpeg&amp;wxfrom=0" alt="图片" /> <br />
+<a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652649420&amp;idx=2&amp;sn=f33cf4dc80612a23937a59b1d0029b83&amp;chksm=f00ba4670d0feec05d7eac987778ab15b33c8f0832500bffeaa38f486b9c9e5fc1b8792e6883&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>针对程序员面对含有近<strong>10000个代码文件</strong>的大型项目难以理解的问题，现有AI工具能够快速自动化处理，将复杂的代码库迅速生成可读的 <strong>Wiki 文档</strong>。
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtAibrPgt29FzibcHp4xcZCLGRxPEicB6C11K3up9ibBKMSWHy0eVvAuDDibokmgI1AeDvQPCtzIbicJBICw/640?wxtype=jpeg&amp;wxfrom=0" alt="图片" /><br />
+ <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247847175&amp;idx=1&amp;sn=d97063b8404487692f5b178d194d9d3a&amp;chksm=e925c1faf6548d5ab5d7d4d17c3aea543b98e0c869b2b606bf53eec80833247af42fa93fbd0b&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>中国的<strong>夸克AI浏览器</strong>宣布进行全面升级，深度融合了<strong>千问AI助手</strong>，并实现了<strong>操作系统级全局唤起</strong>的交互模式，使用户无需切换应用或标签即可随时调用AI能力，旨在成为高效的生产力工具。<br />
+<a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb0UGaiciaAGMAs69EFn4rxGAdiaozDszkU5ia4aHibu8w1HduSnHaXl8s8Im6njnORfLcZUfXU7Jx1FBzw/640?wxtype=jpeg&amp;wxfrom=0">图片</a> <br />
+<a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652649420&amp;idx=1&amp;sn=b570233af9f87cc632c7ef7fbcffe40a&amp;chksm=f0e921776800d6bde47b583f14dc383cb8742bc5102baddc5ac4883c5b42ebbdfa3f1827b945&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>南理工、清华和南大联合提出了端到端模型 <strong>TCDiff</strong>，旨在解决当前音乐驱动的数字人生成技术中，群舞容易出现碰撞和长序列崩坏的问题，实现<strong>高质量和谐群舞</strong>的生成。
+<a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/UicQ7HgWiaUb2ibCM4doBxVSdRuCVHH92jf8icnLG1YPxfsg99tYu2UYHglCmZ0t6gHwpEfNoTQ6mSVZ7RyDicpOZicg/300?wxtype=jpeg&amp;wxfrom=0">图片</a> <br />
+<a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652649420&amp;idx=3&amp;sn=a8e770e9c659ab291742e087f1b7e8e4&amp;chksm=f00673c70d1e65a991f8c18e958f67b522d19450b1594d12c2806fc1fd768c0c013205505c14&amp;scene=0&amp;xtrack=1#rd">原文链接</a></li>
+  <li>北京大学、字节跳动和卡耐基梅隆大学合作提出了首个 <strong>3D 生成解构模型 PartCrafter</strong>，该模型能够从单张 2D 图像生成由多个<strong>语义意义部件</strong>构成的复杂 3D 网格模型，极大地增强了 3D 生成的<strong>可控性与可解释性</strong>，该研究已被 NeurIPS 2025 接收。   <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651003999&amp;idx=3&amp;sn=d0558a55f6a84d3e720485f306a18221">原文链接</a></li>
+  <li>快手消费策略算法团队联合武汉大学推出了 <strong>TagCF 框架</strong>，旨在让推荐系统突破对”内容”的关注，更深层地<strong>理解用户身份</strong>，从而实现从”知其然”到”知其所以然”的转变，该成果已被 <strong>NeurIPS 2025</strong> 接收并全面开源。
+ <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651003999&amp;idx=2&amp;sn=cd12ad0b3d973ee34238ec1ed4e24528">原文链接</a></li>
+</ol>
+
+<h4 id="重要论文"><strong>重要论文</strong></h4>
+
+<ol>
+  <li>一项关于开发者生产力的实证研究通过 <strong>SPACE 框架</strong>对开源仓库进行了数据挖掘，并结合情感分类（RoBERTa），发现<strong>负面情感状态</strong>与代码提交频率之间存在显著正相关关系，暗示开发者倾向于通过迭代修复来解决由沮丧情绪驱动的问题。
+ <a href="https://arxiv.org/abs/2511.20955">原文链接</a></li>
+</ol>
+
+<h4 id="社交媒体"><strong>社交媒体</strong></h4>
+
+<ol>
+  <li>谷歌正在为 <strong>Gemini</strong> 模型开发一项新的<strong>图像注释功能</strong>，用户将能够对生成的图像进行<strong>绘制和添加文本</strong>操作，并在下载之前完成个性化编辑，例如定制涂色页。
+<a href="https://pbs.twimg.com/media/G6w4ATma0AESmAn?format=jpg&amp;name=orig">图片</a><br />
+ <a href="https://x.com/Yangyixxxx/status/1994030315220967924">原文链接</a></li>
+  <li>Deepseek 宣布开源了 <strong>685B</strong> 参数的 <strong>DeepSeek-Math-V2</strong> 模型，该模型基于 DeepSeek V3.2 的 MoE 架构，专门针对数学领域进行了优化，其官方公布的纸面实力已达到 <strong>IMO 2025 金牌水平</strong>和 Putnam 2024 接近满分（118/120）的成绩。
+<a href="https://pbs.twimg.com/media/G6w2x0vbYAAY3C8?format=jpg&amp;name=orig">图片</a> <br />
+<a href="https://x.com/aiwarts/status/1994029020602876228">原文链接</a></li>
+  <li>针对 Agent 系统的设计，LangChain 提出了使用 <strong>filesystem</strong> 进行 <strong>Context Engineering</strong> 的策略。该观点强调 Context 并非仅限于 Token Window，而应视作”<strong>外部化状态 + 调度机制 + 可维护结构</strong>”，通过文件系统将信息从 Prompt 中解放，实现上下文的可控化管理。 <a href="https://x.com/frxiaobei/status/1994021524899013096">原文链接</a></li>
+  <li>图像生成模型 <strong>Banana Pro</strong> 展现出更强的能力，在为商品图添加<strong>细节放大图</strong>和箭头标注时，能够准确识别标注位置，并成功融入了<strong>世界知识</strong>，同时在多次生成中保持了出色的一致性。
+<img src="https://pbs.twimg.com/media/G6wINRybQAAyhE-?format=jpg&amp;name=orig" alt="图片描述" /> <br />
+<img src="https://pbs.twimg.com/media/G6wISqza0AM-aMh?format=jpg&amp;name=orig" alt="图片描述" /><br />
+ <img src="https://pbs.twimg.com/media/G6wIVJZbsAAl-5q?format=png&amp;name=orig" alt="图片描述" /> <br />
+ <a href="https://x.com/xiaokedada/status/1993978454958657623">原文链接</a></li>
+</ol>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2025-11-27">27 Nov 2025</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#AI-daliy">AI daliy</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#AI">#AI</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//2025/11/ai-daily-20251126/"> &laquo; AI日报 2025/11/26</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="//2025/11/ai-daily-20251128/">AI日报 2025/11/28 &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-12">
+                <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'ibillxia'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+            </div>
+        </div>
+    </div>
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+</div>
+
+
+<!-- Bottom Alert Bar
+================================================== -->
+<!-- <div class="alertbar">
+	<div class="container text-center">
+		<span><img src="/assets/images/logo.png" alt="DeepGeekAI"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+	</div>
+</div> -->
+
+    
+</div>
+
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+                
+                    <a class="mt-1 mb-1" href="/categories#AI-daliy">AI daliy (22)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#News">News (4)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#AI">AI (2)</a>
+                
+                    <a class="mt-1 mb-1" href="/categories#AI-Info-Hub">AI-Info-Hub (1)</a>
+                
+            
+            
+		</div>
+	</div>
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-left text-lg-left">
+                Copyright © 2026 DeepGeekAI 
+            </div>
+            <div class="col-md-6 col-sm-6 text-right text-lg-right">    
+                Theme by <a target="_blank" href="https://github.com/codebygina/mediumish-theme-jekyll">Mediumish</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//ibillxia.disqus.com/count.js"></script>
+
+
+</body>
+</html>
