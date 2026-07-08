@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Thoughts, tutorials, and insights about web development and design
+subtitle: Thoughts, tutorials, and insights about Data Science and GenAI
 permalink: /blog/
 ---
 

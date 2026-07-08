@@ -11,8 +11,8 @@ I'm always excited to hear about new projects and opportunities. Whether you hav
 
 ### Contact Information
 
-- **Email:** [hello@example.com](mailto:hello@example.com)
-- **Location:** San Francisco, CA
+- **Email:** [aideepgeek@gmail.com](mailto:aideepgeek@gmail.com)
+- **Location:** Shenzhen, China
 - **Availability:** Open to freelance projects and full-time opportunities
 
 ### Send a Message

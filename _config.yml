@@ -1,32 +1,32 @@
 # Site settings
-title: Modern Jekyll Theme
-email: your.email@example.com
+title: DeepGeekAI
+email: aideepgeek@gmail.com
 description: >-
-  A modern, fast, and responsive Jekyll theme built with Tailwind CSS and Alpine.js.
-  Perfect for developers, designers, and creatives who want a sleek online presence.
+  A Senior Data Scientist & Engineer, RecSys & Advertising Specialist, 
+  GenAI & Agent Developer, and going to be a creative thinker.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aideepgeek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author:
-  name: Your Name
-  bio: "Developer, designer, and creative thinker."
-  location: "San Francisco, CA"
+  name: DeepGeekAI
+  bio: "A Senior Data Scientist & Engineer, RecSys & Advertising Specialist, GenAI & Agent Developer, and going to be a creative thinker."
+  location: "Shenzhen, China"
   avatar: /assets/images/avatar.jpg
-  email: your.email@example.com
-  twitter: yourusername
-  github: yourusername
-  linkedin: yourusername
-  dribbble: yourusername
+  email: aideepgeek@gmail.com
+  twitter: aideepgeek
+  github: aideepgeek
+  linkedin: ibillxia
+  dribbble: ibillxia
 
 # Social settings
 social:
-  twitter: yourusername
-  github: yourusername
-  linkedin: yourusername
-  instagram: yourusername
-  dribbble: yourusername
+  twitter: aideepgeek
+  github: aideepgeek
+  linkedin: ibillxia
+  instagram: aideepgeek
+  dribbble: ibillxia
 
 # Build settings
 markdown: kramdown
@@ -129,7 +129,7 @@ include:
 
 # SEO settings
 twitter:
-  username: yourusername
+  username: aideepgeek
   card: summary_large_image
 
 facebook:
@@ -146,11 +146,11 @@ webmaster_verifications:
   baidu: 
 
 # Analytics
-google_analytics: # UA-XXXXXXXX-X or G-XXXXXXXXXX
+google_analytics: G-34DJ0T23LB # UA-XXXXXXXX-X or G-XXXXXXXXXX
 
 # Comments (Disqus)
 disqus:
-  shortname: your-disqus-shortname
+  shortname: ibillxia
 
 # Search
 search:

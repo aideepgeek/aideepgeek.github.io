@@ -11,49 +11,46 @@ I'm passionate about creating beautiful, functional, and user-centered digital e
 
 ### My Story
 
-My journey into web development started when I was in college. What began as a curiosity about how websites work quickly turned into a passion for creating digital experiences that make a difference. Over the years, I've honed my skills in both frontend and backend development, always staying up-to-date with the latest technologies and best practices.
+Senior data scientist with 10+ years at Tencent / Tencent Music, 3+ years of people management.
+
+Data Science & Engineering: Discovered and propelled phenomenal hits such as "All the Way to Bloom" via a viral-potential model. Built offline and streaming data pipelines from scratch, powering the real-time music chart.
+
+Recommendation & Advertising: Evolved recall and ranking models of music recommendation, lifting full-play rate and save conversion by 5%+. Led a B2B music-promotion marketplace from 0 to 100M+ RMB ARR, serving UMG, Sony Music, Tencent Games and 10k+ independent musicians — winner of two Business Breakthrough Awards.
+
+GenAI & Agent: Upgraded a music AI assistant into a ReAct + Tool-Calling Agent with full-trace observability — accuracy +20%, card CTR +50%. Tuned vLLM inference and submitted an upstream issue to HuggingFace transformers. Shipped a TMEDevLoop dev-skill that lifted coding efficiency 70%.
+
 
 ### Skills & Expertise
 
-#### Frontend Development
-- **HTML/CSS/JavaScript** - Expert-level proficiency
-- **React/Vue/Angular** - Modern framework experience
-- **Tailwind CSS/Sass** - Advanced styling techniques
-- **Responsive Design** - Mobile-first approach
+#### Data Stack
+- **SQL(HiveSQL)** - Expert-level proficiency
+- **Python** -  pandas, scikit-learn, PyTorch / TensorFlow
+- **Big Data** - Spark / Flink / Kafka
+- **Storage** - Elasticsearch / HBase / MySQL
 
-#### Backend Development
-- **Node.js/Python/PHP** - Server-side development
-- **Database Design** - SQL and NoSQL databases
-- **API Development** - RESTful and GraphQL APIs
-- **Cloud Services** - AWS, Google Cloud, Azure
+#### RecSys & Advertising
+- **Recall / fine-rank / re-rank** - Server-side development
+- **DNN models** - DeepFM / DIN / DCN / MMOE / EPNet / OneTrans
+- **CLIP, Qwen3-Embedding** - Faiss vector retrieval
+- **cold-start & GenRec** - generative recommendation
 
-#### Design
-- **UI/UX Design** - User-centered design principles
-- **Figma/Sketch** - Design tool proficiency
-- **Prototyping** - Rapid prototyping and testing
-- **Design Systems** - Scalable design solutions
+#### GenAI & Agents
+- **ReAct, Tool Calling** - User-centered design principles
+- **prompt engineering** - Design tool proficiency
+- **evaluation pipelines** - Rapid prototyping and testing
+- **full-trace observability** - Scalable design solutions
 
 ### Experience
 
-#### Senior Developer - Tech Company (2020-Present)
-- Lead a team of 5 developers in building scalable web applications
-- Implemented CI/CD pipelines that reduced deployment time by 60%
-- Mentored junior developers and conducted code reviews
-
-#### Full Stack Developer - Digital Agency (2018-2020)
-- Developed websites and applications for 30+ clients
-- Collaborated with designers to implement pixel-perfect designs
-- Optimized website performance achieving 95+ Lighthouse scores
-
-#### Junior Developer - Startup (2016-2018)
-- Built and maintained company website and internal tools
-- Learned modern development practices and agile methodologies
-- Contributed to open-source projects
+#### Senior data scientist - Tencent (2015-2026)
+- Lead a team of 5 developers in building a music promotion platform
+- Recommendation & Ranking Upgrade, Multimodal Representation, Diversity Re-rank
+- Production Agent, Full-Trace Observability & Proactive Engagement
 
 ### Education
 
-**Bachelor's Degree in Computer Science**
-University Name | 2012-2016
+**Master's Degree in Computer Science**
+Zhejiang University | 2012-2015
 
 ### Let's Work Together
 
