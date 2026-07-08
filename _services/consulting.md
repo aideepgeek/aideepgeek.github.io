@@ -50,7 +50,7 @@ pricing:
       - Ongoing support
 ---
 
-I provide expert consulting services to help businesses navigate the complex world of web development. Whether you need technical architecture guidance, performance optimization, or team training, I can help.
+I provide expert consulting services to help businesses navigate the complex world of data modeling, AI Agent developing, etc. Whether you need technical architecture guidance, performance optimization, or team training, I can help.
 
 ## Areas of Expertise
 
