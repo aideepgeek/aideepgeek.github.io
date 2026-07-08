@@ -1,0 +1,157 @@
+# Site settings
+title: Modern Jekyll Theme
+email: your.email@example.com
+description: >-
+  A modern, fast, and responsive Jekyll theme built with Tailwind CSS and Alpine.js.
+  Perfect for developers, designers, and creatives who want a sleek online presence.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author:
+  name: Your Name
+  bio: "Developer, designer, and creative thinker."
+  location: "San Francisco, CA"
+  avatar: /assets/images/avatar.jpg
+  email: your.email@example.com
+  twitter: yourusername
+  github: yourusername
+  linkedin: yourusername
+  dribbble: yourusername
+
+# Social settings
+social:
+  twitter: yourusername
+  github: yourusername
+  linkedin: yourusername
+  instagram: yourusername
+  dribbble: yourusername
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: modern-jekyll-theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-archives
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: "/page/:num/"
+  title: ":title - Page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-category
+    tag: archive-tag
+  permalinks:
+    category: /category/:name/
+    tag: /tag/:name/
+
+# Sass/SCSS settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: true
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - README.md
+  - LICENSE
+  - ".gitignore"
+  - ".sass-cache"
+  - ".jekyll-cache"
+  - ".jekyll-metadata"
+
+# Include specific files
+include:
+  - _pages
+  - _projects
+  - _services
+
+# SEO settings
+twitter:
+  username: yourusername
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+
+logo: /assets/images/logo.png
+
+webmaster_verifications:
+  google: 
+  bing: 
+  alexa: 
+  yandex: 
+  baidu: 
+
+# Analytics
+google_analytics: # UA-XXXXXXXX-X or G-XXXXXXXXXX
+
+# Comments (Disqus)
+disqus:
+  shortname: your-disqus-shortname
+
+# Search
+search:
+  provider: lunr # or algolia

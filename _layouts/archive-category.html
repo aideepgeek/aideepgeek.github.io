@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<section class="bg-gradient-soft border-b border-secondary-200 dark:border-secondary-800">
+  <div class="container-custom py-16 sm:py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-secondary-900 dark:text-white mb-4">
+        Category: {{ page.title }}
+      </h1>
+      <p class="text-lg text-secondary-600 dark:text-secondary-400">
+        {{ site.posts | where_exp: "post", "post.categories contains page.title" | size }} articles in this category
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <div class="space-y-8">
+        {% for post in page.posts %}
+        <article class="card group">
+          <a href="{{ post.url | relative_url }}" class="block p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
+              <span class="text-sm text-secondary-500 dark:text-secondary-400">{{ post.date | date: "%B %d, %Y" }}</span>
+              <div class="flex items-center space-x-2 mt-2 sm:mt-0">
+                {% for category in post.categories limit:3 %}
+                <span class="px-2 py-1 text-xs font-medium bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded">{{ category }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <h2 class="text-2xl font-bold text-secondary-900 dark:text-white mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">{{ post.title }}</h2>
+            <p class="text-secondary-600 dark:text-secondary-400">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

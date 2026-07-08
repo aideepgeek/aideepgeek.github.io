@@ -1,0 +1,251 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="relative overflow-hidden bg-gradient-soft">
+  <div class="container-custom section-padding">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="space-y-8 animate-fade-in">
+        <div class="inline-flex items-center px-4 py-2 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-sm font-medium">
+          <span class="w-2 h-2 bg-primary-600 rounded-full mr-2 animate-pulse"></span>
+          Available for new projects
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-secondary-900 dark:text-white leading-tight">
+          Building <span class="text-gradient">digital experiences</span> that matter
+        </h1>
+        <p class="text-lg sm:text-xl text-secondary-600 dark:text-secondary-400 max-w-xl">
+          I'm a developer and designer creating beautiful, functional, and user-centered digital products. Let's build something amazing together.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ '/projects/' | relative_url }}" class="btn-primary">
+            View My Work
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+          <a href="{{ '/contact/' | relative_url }}" class="btn-outline">Get in Touch</a>
+        </div>
+        <div class="flex items-center space-x-8 pt-4">
+          <div>
+            <p class="text-3xl font-bold text-secondary-900 dark:text-white">5+</p>
+            <p class="text-sm text-secondary-500 dark:text-secondary-400">Years Experience</p>
+          </div>
+          <div class="w-px h-12 bg-secondary-200 dark:bg-secondary-700"></div>
+          <div>
+            <p class="text-3xl font-bold text-secondary-900 dark:text-white">50+</p>
+            <p class="text-sm text-secondary-500 dark:text-secondary-400">Projects Completed</p>
+          </div>
+          <div class="w-px h-12 bg-secondary-200 dark:bg-secondary-700"></div>
+          <div>
+            <p class="text-3xl font-bold text-secondary-900 dark:text-white">30+</p>
+            <p class="text-sm text-secondary-500 dark:text-secondary-400">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative lg:pl-8">
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+          <img 
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&h=600&fit=crop" 
+            alt="Hero Image" 
+            class="w-full h-auto object-cover"
+            loading="eager"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/50 to-transparent"></div>
+        </div>
+        <!-- Floating elements -->
+        <div class="absolute -top-4 -right-4 w-24 h-24 bg-primary-500/20 rounded-full blur-2xl"></div>
+        <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-accent-500/20 rounded-full blur-2xl"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+    <svg class="w-6 h-6 text-secondary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+    </svg>
+  </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-bold text-secondary-900 dark:text-white mb-4">Featured Projects</h2>
+        <p class="text-lg text-secondary-600 dark:text-secondary-400 max-w-2xl">
+          A selection of my recent work. Each project represents a unique challenge and creative solution.
+        </p>
+      </div>
+      <a href="{{ '/projects/' | relative_url }}" class="mt-4 md:mt-0 inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:underline">
+        View All Projects
+        <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </a>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for project in site.projects limit:6 %}
+      <article class="card group">
+        <a href="{{ project.url | relative_url }}" class="block">
+          <div class="relative overflow-hidden aspect-video">
+            {% if project.image %}
+            <img 
+              src="{{ project.image | relative_url }}" 
+              alt="{{ project.title }}"
+              class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            {% else %}
+            <div class="w-full h-full bg-gradient-to-br from-primary-100 to-accent-100 dark:from-primary-900/30 dark:to-accent-900/30 flex items-center justify-center">
+              <svg class="w-16 h-16 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            {% endif %}
+            <div class="absolute inset-0 bg-gradient-to-t from-secondary-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center space-x-2 mb-3">
+              {% for category in project.categories limit:2 %}
+              <span class="px-2 py-1 text-xs font-medium bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded">{{ category }}</span>
+              {% endfor %}
+            </div>
+            <h3 class="text-xl font-bold text-secondary-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">{{ project.title }}</h3>
+            <p class="text-secondary-600 dark:text-secondary-400 line-clamp-2">{{ project.excerpt | strip_html }}</p>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="section-padding bg-secondary-50 dark:bg-secondary-900/30">
+  <div class="container-custom">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl sm:text-4xl font-bold text-secondary-900 dark:text-white mb-4">Services I Offer</h2>
+      <p class="text-lg text-secondary-600 dark:text-secondary-400">
+        From concept to deployment, I provide comprehensive digital solutions tailored to your needs.
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {% for service in site.services limit:4 %}
+      <div class="card p-8 text-center group hover:-translate-y-1 transition-transform duration-300">
+        <div class="w-16 h-16 mx-auto mb-6 bg-primary-100 dark:bg-primary-900/30 rounded-2xl flex items-center justify-center group-hover:bg-primary-600 transition-colors duration-300">
+          {% if service.icon %}
+          <span class="text-3xl">{{ service.icon }}</span>
+          {% else %}
+          <svg class="w-8 h-8 text-primary-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          {% endif %}
+        </div>
+        <h3 class="text-xl font-bold text-secondary-900 dark:text-white mb-3">{{ service.title }}</h3>
+        <p class="text-secondary-600 dark:text-secondary-400 mb-4">{{ service.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ service.url | relative_url }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:underline">
+          Learn More
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Latest Blog Posts -->
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-bold text-secondary-900 dark:text-white mb-4">Latest Articles</h2>
+        <p class="text-lg text-secondary-600 dark:text-secondary-400 max-w-2xl">
+          Thoughts, tutorials, and insights about web development, design, and technology.
+        </p>
+      </div>
+      <a href="{{ '/blog/' | relative_url }}" class="mt-4 md:mt-0 inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:underline">
+        View All Articles
+        <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+        </svg>
+      </a>
+    </div>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for post in site.posts limit:6 %}
+      <article class="card group">
+        <a href="{{ post.url | relative_url }}" class="block">
+          <div class="relative overflow-hidden aspect-video">
+            {% if post.image %}
+            <img 
+              src="{{ post.image | relative_url }}" 
+              alt="{{ post.title }}"
+              class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            >
+            {% else %}
+            <div class="w-full h-full bg-gradient-to-br from-secondary-100 to-secondary-200 dark:from-secondary-800 dark:to-secondary-700 flex items-center justify-center">
+              <svg class="w-16 h-16 text-secondary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+              </svg>
+            </div>
+            {% endif %}
+          </div>
+          <div class="p-6">
+            <div class="flex items-center space-x-4 mb-3 text-sm text-secondary-500 dark:text-secondary-400">
+              <span class="flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                {{ post.date | date: "%B %d, %Y" }}
+              </span>
+              {% if post.reading_time %}
+              <span class="flex items-center">
+                <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                {{ post.reading_time }} min read
+              </span>
+              {% endif %}
+            </div>
+            <h3 class="text-xl font-bold text-secondary-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">{{ post.title }}</h3>
+            <p class="text-secondary-600 dark:text-secondary-400 line-clamp-2">{{ post.excerpt | strip_html }}</p>
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="relative rounded-3xl overflow-hidden bg-gradient-to-r from-primary-600 to-accent-600">
+      <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+      <div class="relative px-8 py-16 md:px-16 md:py-20 text-center">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">Ready to start your project?</h2>
+        <p class="text-xl text-white/80 max-w-2xl mx-auto mb-8">
+          Let's collaborate to bring your ideas to life. I'm always excited to work on new and challenging projects.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="{{ '/contact/' | relative_url }}" class="inline-flex items-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-secondary-50 transition-colors duration-200 shadow-lg">
+            Get in Touch
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+          <a href="{{ '/projects/' | relative_url }}" class="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors duration-200">
+            View Portfolio
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

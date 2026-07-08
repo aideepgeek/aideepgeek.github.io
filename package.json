@@ -1,0 +1,40 @@
+{
+  "name": "modern-jekyll-theme",
+  "version": "1.0.0",
+  "description": "A modern, fast, and responsive Jekyll theme built with Tailwind CSS and Alpine.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:css && bundle exec jekyll build",
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/styles.css --watch",
+    "serve": "bundle exec jekyll serve --watch --incremental",
+    "dev": "concurrently \"npm run watch:css\" \"npm run serve\"",
+    "clean": "bundle exec jekyll clean",
+    "test": "bundle exec htmlproofer ./_site"
+  },
+  "keywords": [
+    "jekyll",
+    "theme",
+    "tailwindcss",
+    "alpinejs",
+    "blog",
+    "portfolio",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.32",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.3"
+  }
+}

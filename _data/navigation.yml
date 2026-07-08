@@ -1,0 +1,31 @@
+main:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
+  - title: Services
+    url: /services/
+  - title: Contact
+    url: /contact/
+
+footer:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects/
+  - title: Services
+    url: /services/
+  - title: Contact
+    url: /contact/
+  - title: Privacy Policy
+    url: /privacy/
+  - title: Terms of Service
+    url: /terms/

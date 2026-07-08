@@ -1,0 +1,177 @@
+---
+layout: default
+---
+
+<!-- Service Header -->
+<section class="bg-gradient-soft border-b border-secondary-200 dark:border-secondary-800">
+  <div class="container-custom py-16 sm:py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <!-- Icon -->
+      {% if page.icon %}
+      <div class="w-20 h-20 mx-auto mb-8 bg-primary-100 dark:bg-primary-900/30 rounded-2xl flex items-center justify-center">
+        <span class="text-4xl">{{ page.icon }}</span>
+      </div>
+      {% endif %}
+      
+      <!-- Breadcrumb -->
+      <nav class="mb-6">
+        <ol class="flex items-center justify-center space-x-2 text-sm text-secondary-500 dark:text-secondary-400">
+          <li><a href="{{ '/' | relative_url }}" class="hover:text-primary-600 dark:hover:text-primary-400">Home</a></li>
+          <li>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </li>
+          <li><a href="{{ '/services/' | relative_url }}" class="hover:text-primary-600 dark:hover:text-primary-400">Services</a></li>
+          <li>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </li>
+          <li class="text-secondary-900 dark:text-white font-medium">{{ page.title }}</li>
+        </ol>
+      </nav>
+      
+      <!-- Title -->
+      <h1 class="text-4xl sm:text-5xl font-bold text-secondary-900 dark:text-white mb-6">{{ page.title }}</h1>
+      
+      <!-- Subtitle -->
+      {% if page.subtitle %}
+      <p class="text-xl text-secondary-600 dark:text-secondary-400">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Service Content -->
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <article class="prose-custom">
+        {{ content }}
+      </article>
+      
+      <!-- CTA -->
+      <div class="mt-12 p-8 bg-primary-50 dark:bg-primary-900/20 rounded-2xl text-center">
+        <h3 class="text-2xl font-bold text-secondary-900 dark:text-white mb-4">Ready to get started?</h3>
+        <p class="text-secondary-600 dark:text-secondary-400 mb-6">Let's discuss how I can help you with {{ page.title | downcase }}.</p>
+        <a href="{{ '/contact/' | relative_url }}" class="btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+{% if page.features %}
+<section class="section-padding bg-secondary-50 dark:bg-secondary-900/30">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-secondary-900 dark:text-white mb-12 text-center">What's Included</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        {% for feature in page.features %}
+        <div class="flex items-start">
+          <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center mr-4">
+            <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold text-secondary-900 dark:text-white mb-2">{{ feature.title }}</h3>
+            <p class="text-secondary-600 dark:text-secondary-400">{{ feature.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Process -->
+{% if page.process %}
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-secondary-900 dark:text-white mb-12 text-center">My Process</h2>
+      <div class="space-y-8">
+        {% for step in page.process %}
+        <div class="flex items-start">
+          <div class="flex-shrink-0 w-12 h-12 bg-primary-600 text-white rounded-full flex items-center justify-center mr-6 font-bold text-lg">
+            {{ forloop.index }}
+          </div>
+          <div>
+            <h3 class="text-xl font-bold text-secondary-900 dark:text-white mb-2">{{ step.title }}</h3>
+            <p class="text-secondary-600 dark:text-secondary-400">{{ step.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Pricing -->
+{% if page.pricing %}
+<section class="section-padding bg-secondary-50 dark:bg-secondary-900/30">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-secondary-900 dark:text-white mb-12 text-center">Pricing</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        {% for plan in page.pricing %}
+        <div class="card p-8 {% if plan.featured %}ring-2 ring-primary-600{% endif %}">
+          {% if plan.featured %}
+          <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full">Most Popular</div>
+          {% endif %}
+          <h3 class="text-xl font-bold text-secondary-900 dark:text-white mb-2">{{ plan.name }}</h3>
+          <p class="text-3xl font-bold text-primary-600 mb-4">{{ plan.price }}</p>
+          <p class="text-secondary-600 dark:text-secondary-400 mb-6">{{ plan.description }}</p>
+          <ul class="space-y-3 mb-8">
+            {% for feature in plan.features %}
+            <li class="flex items-center text-secondary-600 dark:text-secondary-400">
+              <svg class="w-5 h-5 mr-2 text-primary-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              {{ feature }}
+            </li>
+            {% endfor %}
+          </ul>
+          <a href="{{ '/contact/' | relative_url }}" class="btn-primary w-full text-center {% if plan.featured %}{% else %}btn-secondary{% endif %}">Get Started</a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Related Services -->
+{% assign related_services = site.services | where_exp: "service", "service.url != page.url" | limit: 3 %}
+{% if related_services.size > 0 %}
+<section class="section-padding">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-secondary-900 dark:text-white mb-8">Other Services</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        {% for service in related_services %}
+        <article class="card group p-6 text-center">
+          {% if service.icon %}
+          <div class="w-16 h-16 mx-auto mb-4 bg-primary-100 dark:bg-primary-900/30 rounded-xl flex items-center justify-center group-hover:bg-primary-600 transition-colors duration-300">
+            <span class="text-2xl">{{ service.icon }}</span>
+          </div>
+          {% endif %}
+          <h3 class="text-lg font-bold text-secondary-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">{{ service.title }}</h3>
+          <p class="text-secondary-600 dark:text-secondary-400 text-sm mb-4">{{ service.excerpt | strip_html | truncate: 80 }}</p>
+          <a href="{{ service.url | relative_url }}" class="inline-flex items-center text-primary-600 dark:text-primary-400 font-medium hover:underline">
+            Learn More
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
