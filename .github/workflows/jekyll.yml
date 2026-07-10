@@ -36,6 +36,8 @@ jobs:
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        env:
+          BUNDLE_FROZEN: "false" # 关键：在这里注入变量，使 setup-ruby 内部的 bundle 运行在非冻结模式
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
