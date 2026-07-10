@@ -1,7 +1,7 @@
 ---
 layout: project
 title: AI Daily
-categories: [AI news]
+categories: [website, AI news]
 client: All website users.
 year: 2025
 duration: 6 months
@@ -12,7 +12,7 @@ technologies: [Jekyll, LLM, AI]
 services: [UI/UX Design, Frontend Development, Backend Development, LLM Integration]
 ---
 
-## AI Daily by DeepGeekAI ｜ 探索 AI 驱动的未来
+## AI Daily by DeepGeekAI 
 
 AI Daily by DeepGeekAI 是一个致力于解码人工智能浪潮、连接前沿科技与日常应用的独立内容平台。
 

@@ -1,11 +1,11 @@
 ---
 layout: project
 title: Next-Navi
-categories: [web-development, Navigation-website]
+categories: [website, Navigation]
 client: All website users.
 year: 2025
 duration: 6 months
-demo_url: https://next-navi.zeabur.app/
+demo_url: https://next-navi.vercel.app/
 github_url: https://github.com/aideepgeek/next-navi
 image: /assets/images/projects/next-navi.jpg
 technologies: [React, Next.js, Tailwind CSS]

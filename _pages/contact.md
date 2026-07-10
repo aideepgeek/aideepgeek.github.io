@@ -11,13 +11,13 @@ I'm always excited to hear about new projects and opportunities. Whether you hav
 
 ### Contact Information
 
-- **Email:** [aideepgeek@gmail.com](mailto:aideepgeek@gmail.com)
+- **Email:** [aideepgeek AT gmail DOT com](mailto:aideepgeek@gmail.com)
 - **Location:** Shenzhen, China
 - **Availability:** Open to freelance projects and full-time opportunities
 
 ### Send a Message
 
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-6 max-w-2xl">
+<form action="https://formspree.io/f/mzdlngvl" method="POST" class="space-y-6 max-w-2xl">
   <div class="grid md:grid-cols-2 gap-6">
     <div>
       <label for="name" class="block text-sm font-medium text-secondary-700 dark:text-secondary-300 mb-2">Name</label>

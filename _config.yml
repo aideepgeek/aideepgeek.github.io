@@ -24,14 +24,15 @@ author:
 social:
   twitter: aideepgeek
   github: aideepgeek
-  linkedin: ibillxia
   instagram: aideepgeek
-  dribbble: ibillxia
+  reddit: aideepgeek
+  # linkedin: ibillxia
+  # dribbble: ibillxia
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: modern-jekyll-theme
+# theme: modern-jekyll-theme
 
 plugins:
   - jekyll-feed

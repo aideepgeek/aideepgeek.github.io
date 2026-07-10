@@ -5,7 +5,7 @@ subtitle: Comprehensive digital solutions for your business
 permalink: /services/
 ---
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
   {% for service in site.services %}
   <article class="card group p-8 text-center hover:-translate-y-1 transition-transform duration-300">
     {% if service.icon %}
@@ -26,7 +26,7 @@ permalink: /services/
 </div>
 
 <!-- CTA Section -->
-<div class="mt-16 p-8 bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl text-center">
+<div class="mt-12 p-8 bg-gradient-to-r from-primary-600 to-accent-600 rounded-2xl text-center">
   <h3 class="text-2xl font-bold text-white mb-4">Need something custom?</h3>
   <p class="text-white/80 mb-6 max-w-2xl mx-auto">I offer tailored solutions to meet your specific needs. Let's discuss how I can help you achieve your goals.</p>
   <a href="{{ '/contact/' | relative_url }}" class="inline-flex items-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-secondary-50 transition-colors duration-200 shadow-lg">
