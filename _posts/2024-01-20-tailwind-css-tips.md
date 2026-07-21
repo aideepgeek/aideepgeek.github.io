@@ -4,7 +4,7 @@ title: "10 Tailwind CSS Tips to Improve Your Workflow"
 date: 2024-01-20 14:30:00 +0000
 categories: [css, tailwind]
 tags: [tailwind-css, css, frontend, tips]
-author: Your Name
+author: DeepGeekAI
 image: /assets/images/blog/tailwind-tips.jpg
 ---
 

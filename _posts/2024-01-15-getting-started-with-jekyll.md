@@ -4,7 +4,7 @@ title: "Getting Started with Jekyll: A Complete Guide"
 date: 2024-01-15 10:00:00 +0000
 categories: [jekyll, tutorial]
 tags: [jekyll, static-site, web-development, beginner]
-author: Your Name
+author: DeepGeekAI
 image: /assets/images/blog/jekyll-guide.jpg
 ---
 
