@@ -147,7 +147,7 @@ webmaster_verifications:
   baidu: 
 
 # Analytics
-google_analytics: G-34DJ0T23LB # UA-XXXXXXXX-X or G-XXXXXXXXXX
+google_analytics: G-S89GNKWEPN # UA-XXXXXXXX-X or G-XXXXXXXXXX
 
 # Comments (Disqus)
 disqus:
